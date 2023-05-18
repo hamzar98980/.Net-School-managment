@@ -1,0 +1,66 @@
+﻿@model IEnumerable<managment.Models.std_add>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/layoutadmin.cshtml";
+}
+
+<h2>Student Personal Information</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.Label("City", null, htmlAttributes: new { @class = "" })
+
+           
+        </th>
+        <th>
+            @Html.Label("Place Of Birth", null, htmlAttributes: new { @class = "" })
+
+        </th>
+        <th>
+            @Html.Label("Date Of Birth", null, htmlAttributes: new { @class = "" })
+
+        </th>
+        <th>
+            @Html.Label("Student Adddress", null, htmlAttributes: new { @class = "" })
+
+         
+        </th>
+        <th>
+            @Html.Label("Student Name", null, htmlAttributes: new { @class = "" })
+
+            
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.s_city)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.p_o_b)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.d_o_b)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.s_address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.std_info.s_name)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.s_add }) |
+            @Html.ActionLink("Details", "Details", new { id=item.s_add }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.s_add })
+        </td>
+    </tr>
+}
+
+</table>

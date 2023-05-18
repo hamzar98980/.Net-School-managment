@@ -1,0 +1,59 @@
+﻿@model managment.Models.std_add
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/layoutadmin.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>std_add</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.s_city)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.s_city)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.p_o_b)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.p_o_b)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.d_o_b)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.d_o_b)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.s_address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.s_address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.std_info.s_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.std_info.s_name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.s_add }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

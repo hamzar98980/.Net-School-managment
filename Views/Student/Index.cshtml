@@ -1,0 +1,625 @@
+﻿@model managment.ViewModel.StudentViewModel
+
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+<!-- FAVICONS ICON -->
+<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+
+<!-- PAGE TITLE HERE -->
+<title>EduZone - Education Collage & School HTML5 Template</title>
+
+<!-- MOBILE SPECIFIC -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--[if lt IE 9]>
+<script src="js/html5shiv.min.js"></script>
+<script src="js/respond.min.js"></script>
+<![endif]-->
+<!-- STYLESHEETS -->
+<link rel="stylesheet" type="text/css" href="~/dashboard/css/plugins.css">
+<link rel="stylesheet" type="text/css" href="~/dashboard/css/style.css">
+<link class="skin" rel="stylesheet" type="text/css" href="~/dashboard/css/skin/skin-1.css">
+<link rel="stylesheet" type="text/css" href="~/dashboard/css/templete.css">
+<!-- Google Font -->
+<style>
+    
+
+    .card {
+        box-shadow: 0 5px 5px 5px #e1e1e1;
+        max-width: 400px;
+        border-radius: 5px;
+        
+    }
+
+    #img1 {
+        border: 5px solid #e1e1e1;
+    
+        width: 40%;
+        height: 40%;
+    }
+
+    #ctable {
+        margin: 5px;
+    }
+
+
+
+    #trd1 {
+        
+        border: 1px solid #e1e1e1;
+        text-align: left;
+    }
+
+</style>
+
+
+<div class="container" id="conatiner1">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="sort-title clearfix text-center">
+
+            </div>
+            <div class="section-content box-sort-in button-example p-t10 p-b30">
+                <div class="dlab-tabs vertical">
+                    <ul class="nav nav-tabs">
+                        <li><a data-toggle="tab" href="#account" class="active"><i class="ti-world"></i> <span class="title-head">  Profile</span></a></li>
+                        <li><a data-toggle="tab" href="#exam"><i class="ti-world"></i> <span class="title-head">   Exam</span></a></li>
+                        <li><a data-toggle="tab" href="#exam-result"><i class="ti-image"></i>  <span class="title-head">Exam Result</span></a></li>
+                        <li><a data-toggle="tab" href="#ass-7"><i class="ti-world"></i> <span class="title-head"> Assingment</span></a></li>
+                        <li><a data-toggle="tab" href="#notice"><i class="ti-world"></i> <span class="title-head"> Notice Board</span></a></li>
+                        <li><a data-toggle="tab" href="#card"><i class="ti-image"></i>  <span class="title-head">ID Card</span></a></li>
+
+                        <li><a data-toggle="tab" href="#graphic-design-7"><i class="ti-image"></i>  <span class="title-head">Fees</span></a></li>
+                        <li><a data-toggle="tab" href="#developement-7"><i class="fa fa-cog"></i>  <span class="title-head">  Study Material</span></a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="account" class="tab-pane active">
+
+
+
+                            <table class="table">
+                                <thaed>
+                                    <tr>
+                                        <th>Student Enrollment</th>
+                                        <th>Student Name</th>
+                                        <th>Religion</th>
+                                        <th>Number</th>
+                                        <th>Gender</th>
+                                        <th>Email</th>
+                                        <th>Picture</th>
+
+                                    </tr>
+                                </thaed>
+                                <tbody>
+
+                                    <tr>
+                                        <td>
+                                            @if (Session["u_enr"] != null)
+                                            {
+                                                @Session["u_enr"].ToString()
+                                            }
+                                        </td>
+                                        <td>
+                                            @if (Session["u_name"] != null)
+                                            {
+                                                @Session["u_name"].ToString()
+                                            }
+                                        </td>
+                                        <td>
+                                            @if (Session["u_relig"] != null)
+                                            {
+                                                @Session["u_relig"].ToString()
+                                            }
+                                        </td>
+                                        <td>
+                                            @if (Session["u_num"] != null)
+                                            {
+                                                @Session["u_num"].ToString()
+                                            }
+                                        </td>
+                                        <td>
+                                            @if (Session["u_gender"] != null)
+                                            {
+                                                @Session["u_gender"].ToString()
+                                            }
+                                        </td>
+                                        <td>
+                                            @if (Session["u_email"] != null)
+                                            {
+                                                @Session["u_email"].ToString()
+                                            }
+                                        </td>
+
+                                        <td>
+                                            @if (Session["u_image"] != null)
+                                            {
+                                                <img src="@Url.Content(Session["u_image"].ToString())" width="200" height="150" />
+                                            }
+                                        </td>
+
+
+
+                                    </tr>
+
+                                </tbody>
+                            </table>
+
+
+
+
+
+
+
+
+
+                        </div>
+                        <div id="graphic-design-7" class="tab-pane">
+                            <p class="m-b0">
+                                <table class="table">
+                                    <tr>
+                                        <th>Student Name</th>
+                                        <th>Student Fees</th>
+                                        <th>Student Fees Month</th>
+                                        <th>Student Fees Date</th>
+                                    </tr>
+                                    @foreach (var item in Model.st_fees)
+                                    {
+                                        <tr>
+                                            <td>@Session["u_name"]</td>
+                                            <td>@Html.DisplayFor(modelItem => item.f_fees)</td>
+                                            <td>@Html.DisplayFor(modelItem => item.f_month)</td>
+                                            <td>@Html.DisplayFor(modelItem => item.f_date)</td>
+                                        </tr>
+                                    }
+
+                                </table>
+                            </p>
+                        </div>
+
+
+
+
+
+
+
+
+                        <div id="developement-7" class="tab-pane">
+                            <p class="m-b0">
+                                <table class="table">
+                                    <tr>
+
+                                        <th>Student Batch</th>
+                                        <th>Subject</th>
+                                        <th>Description</th>
+                                        <th>Download</th>
+                                    </tr>
+                                    @foreach (var item in Model.std_mat)
+                                    {
+                                        <tr>
+
+                                            <td>@Html.DisplayFor(modelItem => item.batch.b_code)</td>
+                                            <td>@Html.DisplayFor(modelItem => item.st_subj.s_sub)</td>
+                                            <td>@Html.DisplayFor(modelItem => item.sm_desc)</td>
+                                            <td><button class="btn btn-primary"><a href="@Url.Content(item.sm_file)" download="">DownLoad</a></button></td>
+                                        </tr>
+                                    }
+
+                                </table>
+
+                            </p>
+                        </div>
+
+
+
+
+
+
+
+                        <div id="exam" class="tab-pane">
+                            <p class="m-b0">
+                                <table class="table">
+                                    <tr>
+
+                                        <th>Batch Batch</th>
+                                        <th>Subject</th>
+                                        <th>Exam Date</th>
+                                        <th>Exam Type</th>
+                                        <th>Exam Marks</th>
+                                        <th>Exam Start Time</th>
+                                        <th>Exam End Time</th>
+                                    </tr>
+                                    @foreach (var item in Model.exam)
+                                    {
+                                        <tr>
+
+                                            <td>@Html.DisplayFor(modelItem => item.batch.b_code)</td>
+                                            <td>@Html.DisplayFor(modelItem => item.st_subj.s_sub)</td>
+                                            <td>@Html.DisplayFor(modelItem => item.e_date)</td>
+                                            <td>@Html.DisplayFor(modelItem => item.e_type)</td>
+                                            <td>@Html.DisplayFor(modelItem => item.e_marks)</td>
+
+                                            <td>@Html.DisplayFor(modelItem => item.est_time)</td>
+                                            <td>@Html.DisplayFor(modelItem => item.end_time)</td>
+
+                                        </tr>
+                                    }
+
+                                </table>
+
+                            </p>
+                        </div>
+
+
+
+
+
+
+
+                        <div id="exam-result" class="tab-pane">
+                            <p class="m-b0">
+                                <table class="table">
+                                    <tr>
+
+                                        <th>Student Enrollment</th>
+                                        <th>Marks</th>
+                                        <th>Percantage</th>
+                                        <th>Grade</th>
+                                        <th>Subject</th>
+                                        <th>Type</th>
+                                        <th>Remarks</th>
+                                    </tr>
+                                    @foreach (var item in Model.exam_result)
+                                    {
+                                        <tr>
+
+                                            <td>@Session["u_enr"]</td>
+
+                                            <td>@Html.DisplayFor(modelItem => item.er_marks)</td>
+                                            <td>@Html.DisplayFor(modelItem => item.er_per)</td>
+                                            <td>@Html.DisplayFor(modelItem => item.er_grade)</td>
+                                            <td>@Html.DisplayFor(modelItem => item.st_subj.s_sub)</td>
+                                            <td>@Html.DisplayFor(modelItem => item.exam.e_type)</td>
+                                            <td>@Html.DisplayFor(modelItem => item.er_remarks)</td>
+
+                                        </tr>
+                                    }
+
+                                </table>
+
+                            </p>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+                        <div id="notice" class="tab-pane">
+                            <p class="m-b0">
+                                <table class="table">
+                                    <tr>
+
+                                        <th>Title</th>
+                                        <th>Date</th>
+                                        <th>Batch</th>
+                                        <th>Description</th>
+
+                                    </tr>
+                                    @foreach (var item in Model.notice)
+                                    {
+                                        <tr>
+
+
+
+                                            <td>@Html.DisplayFor(modelItem => item.n_title)</td>
+                                            <td>@Html.DisplayFor(modelItem => item.n_date)</td>
+                                            <td>@Html.DisplayFor(modelItem => item.batch.b_code)</td>
+                                            <td>@Html.DisplayFor(modelItem => item.n_desc)</td>
+
+
+                                        </tr>
+                                    }
+
+                                </table>
+
+                            </p>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                        <div id="card" class="tab-pane">
+                            <p class="m-b0">
+
+                                <table class="table">
+                                    <tr>
+                                        <th>Tiltle</th>
+                                        <th>Card</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Your Id Card</td>
+                                        <td><button class="btn btn-info" data-toggle="modal" data-target="#mymodal2">Generate Card</button></td>
+
+                                    </tr>
+                                </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                <div class="modal fade" id="mymodal2" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticbackdroplable" aria-hidden="true">
+
+                                    <div class="modal-dialog">
+
+                                        <div class="modal-content">
+
+                                            <div class="modal-header">
+                                             
+                                            </div>
+
+                                            <div class="modal-body">
+
+
+                                                <div class="card" style="width:100%;">
+                                                    <img src="@Url.Content(Session["u_image"].ToString())" />
+
+
+                                                    <table id="ctable">
+                                                        <tr id="tr1">
+                                                            @*<td id="trd1"><strong>Student ID</strong></td>
+                                                            <td id="trd1">
+                                                                @Session["u_enr"].ToString()
+                                                            </td>*@
+                                                        </tr>
+                                                        <tr id="tr1">
+                                                            <td id="trd1"><strong>Name</strong></td>
+                                                            <td id="trd1">
+                                                                @Session["u_name"].ToString()
+                                                            </td>
+                                                        </tr>
+                                                        <tr id="tr1">
+                                                            <td id="trd1"><strong>Contact</strong></td>
+                                                            <td id="trd1">
+                                                                @Session["u_num"].ToString()
+                                                            </td>
+                                                        </tr>
+                                                        <tr id="tr1">
+                                                            <td id="trd1"><strong>Email</strong></td>
+                                                            <td id="trd1">
+                                                                @Session["u_email"].ToString()
+                                                            </td>
+                                                        </tr>
+                      
+                                                       
+                                                       
+                                                    </table>
+
+                                                </div>
+
+
+
+
+
+                                            </div>
+
+                                            <div class="modal-footer">
+                                                <button class="btn btn-secondary" data-dismiss="modal" aria-label="close">
+                                                    close
+                                                </button>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            </p>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <div id="ass-7" class="tab-pane">
+                            <p class="m-b0">
+                                <table class="table">
+                                    <tr>
+                                        <th>Title</th>
+                                        <th>Student Batch</th>
+                                        <th>Subject</th>
+                                        <th>Description</th>
+                                        <th>Date</th>
+                                        <th>Download</th>
+                                        <th>Submit</th>
+                                    </tr>
+                                    @foreach (var item in Model.Assingment)
+                                    {
+                                        <tr>
+                                            <td>@Html.DisplayFor(modelItem => item.as_title)</td>
+                                            <td>@Html.DisplayFor(modelItem => item.batch.b_code)</td>
+                                            <td>@Html.DisplayFor(modelItem => item.st_subj.s_sub)</td>
+                                            <td>@Html.DisplayFor(modelItem => item.as_desc)</td>
+                                            <td>@Html.DisplayFor(modelItem => item.as_date)</td>
+                                            <td><button class="btn btn-dark"><a href="@Url.Content(item.as_file)" download>DownLoad</a></button></td>
+                                            <td><button class="btn btn-info" data-toggle="modal" data-target="#mymodal">submit</button></td>
+
+                                        </tr>
+                                    }
+
+
+
+                                </table>
+
+                            </p>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+                        <div class="modal fade" id="mymodal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticbackdroplable" aria-hidden="true">
+
+                            <div class="modal-dialog">
+
+                                <div class="modal-content">
+
+                                    <div class="modal-header">
+                                        
+                                    </div>
+
+                                    <div class="modal-body">
+
+
+                                        @using (Html.BeginForm("assing", "Student", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                                        {
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <label class="fieldlabels">Name:  </label>
+                                                    <input type="text" name="name" placeholder="Your Name" class="form form-control" />
+
+
+                                                    <label class="fieldlabels">File: *</label>
+                                                    <input type="file" name="file" class="form form-control" />
+
+                                                    <label class="fieldlabels">Description: *</label>
+                                                    <input type="text" name="desc" placeholder="Description" class="form form-control" />
+
+                                                    <label class="fieldlabels">Asssingment: *</label>
+                                                    <select name="ass" class="form form-control">
+                                                        @foreach (var item in Model.Assingment)
+                                                        {
+                                                            <option value="@item.as_id">@item.as_title</option>
+                                                        }
+                                                    </select>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <div class="col-md-offset-2 col-md-10">
+                                                    <input type="submit" value="Submit" class="btn btn-primary" />
+                                                </div>
+                                            </div>
+
+                                        }
+
+                                    </div>
+
+                                    <div class="modal-footer">
+                                        <button class="btn btn-secondary" data-dismiss="modal" aria-label="close">
+                                            close
+                                        </button>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="~/dashboard/plugins/popper.min.js"></script><!-- BOOTSTRAP.MIN JS -->
+<script src="~/dashboard/plugins/bootstrap.min.js"></script><!-- BOOTSTRAP.MIN JS -->

@@ -1,0 +1,65 @@
+﻿@model managment.Models.std_add
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/layoutadmin.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>std_add</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.s_city)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.s_city)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.p_o_b)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.p_o_b)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.d_o_b)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.d_o_b)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.s_address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.s_address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.std_info.s_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.std_info.s_name)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

@@ -1,0 +1,73 @@
+﻿@model managment.Models.Assingment
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/layoutadmin.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Assingment</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.as_title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.as_title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.as_date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.as_date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.as_file)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.as_file)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.as_desc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.as_desc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.batch.b_code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.batch.b_code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.st_subj.s_sub)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.st_subj.s_sub)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

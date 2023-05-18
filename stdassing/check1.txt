@@ -1,0 +1,444 @@
+<div class="image-container set-full-height" style="background-color: #000000;">
+    <!--   Creative Tim Branding   -->
+    <!--   Big container   -->
+    <div class="container">
+
+        
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <!-- Wizard container -->
+                <div class="wizard-container">
+                    <div class="card wizard-card" data-color="red" id="wizard">
+                        @*<form action="" method="">*@
+                            <!--        You can switch " data-color="blue" "  with one of the next bright colors: "green", "orange", "red", "purple"             -->
+
+                            <div class="wizard-header">
+                                <h3 class="wizard-title"></h3>
+                                <h5></h5>
+                            </div>
+                            <div class="wizard-navigation">
+                                <ul>
+                                    <li><a href="#details" data-toggle="tab">Account</a></li>
+                                    <li><a href="#captain"  data-toggle="tab">Address Details</a></li>
+                                    <li><a href="#description" data-toggle="tab">Parent Info</a></li>
+                                </ul>
+                            </div>
+
+
+                     
+
+                            <div class="tab-content">
+
+                             
+
+            
+                                <div class="tab-pane" id="details">
+                   
+                                    @using (Html.BeginForm("std_inf","Home", FormMethod.Post, new { enctype = "multipart/form-data"}))
+                                    {
+
+
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <h4 class="info-text"> Let's start with the basic details.</h4>
+                                            </div>
+                                            <div class="col-sm-6">
+
+                                                <div class="input-group">
+
+                                                    <div class="form-group label-floating">
+                                                        <label class="control-label">Your Name</label>
+                                                        <input name="name" type="text" class="form-control">
+                                                    </div>
+                                                </div>
+
+                                                <div class="input-group">
+
+                                                    <div class="form-group label-floating">
+                                                        <label class="control-label">Your Religion</label>
+                                                        <input name="relig" type="text" class="form-control">
+                                                    </div>
+                                                </div>
+
+
+
+                                                <div class="input-group">
+
+                                                    <div class="form-group label-floating">
+                                                        <label class="control-label">Your Email</label>
+                                                        <input name="email" type="text" class="form-control">
+                                                    </div>
+                                                </div>
+
+                                                <div class="input-group">
+
+                                                    <div class="form-group label-floating">
+                                                        <label class="control-label">Your Password</label>
+                                                        <input name="pass" type="password" class="form-control">
+                                                    </div>
+                                                </div>
+
+                                                <div class="input-group">
+
+                                                    <div class="form-group label-floating">
+                                                        <label class="control-label">Your Picture</label>
+                                                        <input name="file" type="file" class="form-control">
+                                                    </div>
+                                                </div>
+
+
+
+                                            </div>
+
+
+
+
+
+                                            <div class="col-sm-6">
+
+
+                                                <div class="form-group label-floating">
+
+
+                                                    <label class="control-label">Your Gender </label>
+
+                                                    <select class="form-control" name="gender">
+                                                        <option disabled="" selected=""></option>
+                                                        <option value="Male"> Male </option>
+                                                        <option value="Female"> Female </option>
+
+                                                        
+                                                    </select>
+                                                </div>
+
+
+
+                                                <div class="input-group">
+
+                                                    <div class="form-group label-floating">
+                                                        <label class="control-label">Your Number </label>
+                                                        <input name="number" type="tel" class="form-control">
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="form-group label-floating">
+
+
+                                                    <label class="control-label">Your Batch </label>
+
+                                                    @Html.DropDownList("batch", null, htmlAttributes: new { @class = "form-control" })
+
+                                                </div>
+
+
+                                                <div class="input-group">
+
+                                                    <div class="form-group label-floating">
+                                                        <label class="control-label">Confirm  Password</label>
+                                                        <input name="cpass" type="password" class="form-control">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="pull-right">
+                                            <input type='submit' class='btn btn-next btn-fill btn-danger btn-wd' name='next' value='submit' id="btn"/>
+                                            <input type="button" onclick="open()" value="Open tab"/>
+                                            @*<input type='button' class='btn btn-finish btn-fill btn-danger btn-wd' name='finish' value='Finish' />*@
+                                        </div>
+                                    }
+                                </div>
+
+                                 
+
+
+
+
+
+
+
+
+
+                                <div class="tab-pane" id="captain">
+
+                                    @using (Html.BeginForm("std_ad", "Home", FormMethod.Post))
+                                    {
+
+                                        <div class="row">
+                                            <div class="col-sm-10 col-sm-offset-1">
+                                                <div class="col-sm-6">
+                                                    <div class="input-group">
+                                                        <span class="input-group-addon">
+                                                            <i class="material-icons">City</i>
+                                                        </span>
+                                                        <div class="form-group label-floating">
+                                                            <label class="control-label"> </label>
+                                                            <input name="city" type="text" class="form-control">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="input-group">
+                                                        <span class="input-group-addon">
+                                                            <i class="material-icons">Place Of Birth</i>
+                                                        </span>
+                                                        <div class="form-group label-floating">
+                                                            <label class="control-label">   </label>
+                                                            <input name="pob" type="text" class="form-control">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="input-group">
+                                                        <span class="input-group-addon">
+                                                            <i class="material-icons">Date Of Birth</i>
+                                                        </span>
+                                                        <div class="form-group label-floating">
+                                                            <label class="control-label">   </label>
+                                                            <input name="dob" type="date" class="form-control">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="input-group">
+                                                        <span class="input-group-addon">
+                                                            <i class="material-icons">Address</i>
+                                                        </span>
+                                                        <div class="form-group label-floating">
+                                                            <label class="control-label"> </label>
+                                                            <input name="address" type="text" class="form-control">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="pull-right">
+                                            <input type='submit' class='btn btn-next btn-fill btn-danger btn-wd' name='next' value='submit' />
+                                            @*<input type='button' class='btn btn-finish btn-fill btn-danger btn-wd' name='finish' value='Finish' />*@
+                                        </div>
+                                    }
+
+                                </div>
+
+
+
+
+
+
+
+                                <div class="tab-pane" id="description">
+                                    @using (Html.BeginForm("parent_inf", "Home",FormMethod.Post))
+                                    {
+
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <h4 class="info-text"> Let's start with the basic details.</h4>
+                                            </div>
+                                            <div class="col-sm-6">
+
+                                                <div class="input-group">
+
+                                                    <div class="form-group label-floating">
+                                                        <label class="control-label">Father Name</label>
+                                                        <input name="fathername" type="text" class="form-control">
+                                                    </div>
+                                                </div>
+
+                                                <div class="input-group">
+
+                                                    <div class="form-group label-floating">
+                                                        <label class="control-label">Father Contact</label>
+                                                        <input name="fathercon" type="tel" class="form-control">
+                                                    </div>
+                                                </div>
+
+
+
+                                                <div class="input-group">
+
+                                                    <div class="form-group label-floating">
+                                                        <label class="control-label">Father Email</label>
+                                                        <input name="fatheremail" type="text" class="form-control">
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+
+
+
+
+
+
+
+
+
+
+                                            <div class="col-sm-6">
+
+
+
+                                                <div class="input-group">
+
+                                                    <div class="form-group label-floating">
+                                                        <label class="control-label">Father CNIC </label>
+                                                        <input name="fathercnic" type="text" class="form-control">
+                                                    </div>
+                                                </div>
+
+
+
+                                                <div class="input-group">
+
+                                                    <div class="form-group label-floating">
+                                                        <label class="control-label">Mother Name</label>
+                                                        <input name="mname" type="text" class="form-control">
+                                                    </div>
+                                                </div>
+
+                                                <div class="input-group">
+
+                                                    <div class="form-group label-floating">
+                                                        <label class="control-label">Mother Contact</label>   
+
+                                                        <input name="mcon" type="tel" class="form-control">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    }
+                                    </div>
+                            </div>
+
+
+                            <div class="wizard-footer">
+                                @*<div class="pull-right">
+                                    <input type='button' class='btn btn-next btn-fill btn-danger btn-wd' name='next' value='Next' />
+                                    <input type='button' class='btn btn-finish btn-fill btn-danger btn-wd' name='finish' value='Finish' />
+                                </div>*@
+                                <div class="pull-left">
+                                      <input type='button' class='btn btn-previous btn-fill btn-default btn-wd' name='previous' value='Previous' />
+
+                                    <div class="footer-checkbox">
+                                        <div class="col-sm-12">
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" name="optionsCheckboxes">
+                                                </label>
+                                                Subscribe to our newsletter
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        @*</form>*@
+                    </div>
+                </div> <!-- wizard container -->
+            </div>
+        </div> <!-- row -->
+    </div> <!--  big container -->
+
+    <script>
+        function open() {
+            document.getElementById('captain').style.display = "";
+        };
+    </script>
+
+    <div class="footer">
+        <div class="container text-center">
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+*************************************
+ schoolmanage db = new schoolmanage();
+        // GET: Home
+        [HttpGet]
+        public ActionResult Index()
+        {
+            ViewBag.batch = new SelectList(db.batches,"b_id" , "b_code");
+            return View();
+        }
+        [HttpPost]
+        public ActionResult std_inf(string name, string relig , string email , string pass , string gender , string number , string batch , string cpass , HttpPostedFileBase file)
+        {
+           // batch bt = db.batches.Where(m => m.b_code.Equals(batch)).FirstOrDefault();
+
+            std_info info = new std_info();
+            string file_name = file.FileName.ToString();
+            string path = "~/Uploads/"+file_name;
+            file.SaveAs(Server.MapPath(path));
+            info.s_pic = path;
+            info.s_name = name;
+            info.s_relig = relig;
+            info.s_email = email;
+            info.s_pass = pass;
+            info.s_gender = gender;
+            info.s_num = number;
+            info.s_batchid = int.Parse(batch);
+            info.s_cpass = cpass;
+
+            db.std_info.Add(info);
+            int a = db.SaveChanges();
+
+            if(a > 0)
+            {
+                Session["st_email"] = email;
+                return RedirectToAction("Index");
+            }
+            return RedirectToAction("Index");
+        }
+
+        
+        public ActionResult std_ad(string city, string pob, string dob, string address)
+        {
+            string st_email = Session["st_email"].ToString();
+            std_info st = db.std_info.Where(m => m.s_email.Equals(st_email)).FirstOrDefault(); 
+
+            std_add add = new std_add();
+            add.s_city = city;
+            add.p_o_b = pob;
+            add.d_o_b = dob;
+            add.s_id = st.s_id;
+            add.s_address = address;
+            db.std_add.Add(add);
+            int a = db.SaveChanges();
+
+            if (a > 0)
+            {
+                return RedirectToAction("Index");
+            }
+            return RedirectToAction("Index");
+        }
+
+        public ActionResult parent_inf(string fathername,string fathercon ,string fatheremail,string fathercnic, string mname, string mcon)
+        {
+            parent_info pinf = new parent_info();
+            pinf.f_name = fathername;
+            pinf.f_contact = fathercon;
+            pinf.m_name = mname;
+            pinf.m_contact = mcon;
+            pinf.f_cnic = fathercnic;
+            pinf.f_email = fatheremail;
+            db.parent_info.Add(pinf);
+
+            int a = db.SaveChanges();
+
+            if (a>0)
+            {
+                return RedirectToAction("Index");
+            }
+
+
+            return RedirectToAction("Index");
+        }
+
+    }

@@ -1,0 +1,79 @@
+﻿@model IEnumerable<managment.Models.parent_info>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/layoutadmin.cshtml";
+}
+
+<h2>Students Parents Information</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+
+            @Html.Label("Father Name", null, htmlAttributes: new { @class = "" })
+
+            @*@Html.DisplayNameFor(model => model.f_name)*@
+        </th>
+        <th>
+            @Html.Label("Father Conatct", null, htmlAttributes: new { @class = "" })
+
+        </th>
+        <th>
+            @Html.Label("Mother Name", null, htmlAttributes: new { @class = "" })
+
+        </th>
+        <th>
+            @Html.Label("Mother Conact", null, htmlAttributes: new { @class = "" })
+
+        </th>
+        <th>
+            @Html.Label("Father Cnic", null, htmlAttributes: new { @class = "" })
+
+        </th>
+        <th>
+            @Html.Label("Father Email", null, htmlAttributes: new { @class = "" })
+
+        </th>
+        <th>
+            @Html.Label("Student Name", null, htmlAttributes: new { @class = "" })
+
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.f_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.f_contact)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.m_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.m_contact)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.f_cnic)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.f_email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.std_info.s_name)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.par_Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.par_Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.par_Id })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,35 @@
+﻿@model managment.Models.teacher_batch
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/layoutadmin.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>teacher_batch</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.batch.b_code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.batch.b_code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.teacher_info.t_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.teacher_info.t_name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.t_batch }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

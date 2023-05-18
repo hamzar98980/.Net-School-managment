@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="schoolmanageModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="as_submit">
+    <Key>
+      <PropertyRef Name="su_id" />
+    </Key>
+    <Property Name="su_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="s_id" Type="int" />
+    <Property Name="su_submit" Type="varchar" MaxLength="250" />
+    <Property Name="su_desc" Type="varchar" MaxLength="300" />
+    <Property Name="as_id" Type="int" />
+  </EntityType>
+  <EntityType Name="Assingment">
+    <Key>
+      <PropertyRef Name="as_id" />
+    </Key>
+    <Property Name="as_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="as_title" Type="varchar" MaxLength="100" />
+    <Property Name="as_sub" Type="int" />
+    <Property Name="as_batch" Type="int" />
+    <Property Name="as_date" Type="varchar" MaxLength="50" />
+    <Property Name="as_file" Type="varchar" MaxLength="250" />
+    <Property Name="as_desc" Type="varchar" MaxLength="300" />
+  </EntityType>
+  <EntityType Name="batch">
+    <Key>
+      <PropertyRef Name="b_id" />
+    </Key>
+    <Property Name="b_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="b_code" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="exam">
+    <Key>
+      <PropertyRef Name="s_id" />
+    </Key>
+    <Property Name="s_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="e_type" Type="varchar" MaxLength="100" />
+    <Property Name="e_date" Type="varchar" MaxLength="50" />
+    <Property Name="e_subj" Type="int" />
+    <Property Name="e_batch" Type="int" />
+    <Property Name="est_time" Type="varchar" MaxLength="50" />
+    <Property Name="end_time" Type="varchar" MaxLength="50" />
+    <Property Name="e_marks" Type="int" />
+  </EntityType>
+  <EntityType Name="exam_result">
+    <Key>
+      <PropertyRef Name="er_id" />
+    </Key>
+    <Property Name="er_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="s_id" Type="int" />
+    <Property Name="er_marks" Type="int" />
+    <Property Name="er_per" Type="varchar" MaxLength="50" />
+    <Property Name="er_grade" Type="varchar" MaxLength="10" />
+    <Property Name="et_id" Type="int" />
+    <Property Name="en_id" Type="int" />
+    <Property Name="er_remarks" Type="varchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="notice">
+    <Key>
+      <PropertyRef Name="n_id" />
+    </Key>
+    <Property Name="n_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="n_title" Type="varchar" MaxLength="50" />
+    <Property Name="n_date" Type="varchar" MaxLength="50" />
+    <Property Name="n_batch" Type="int" />
+    <Property Name="n_desc" Type="varchar" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="parent_info">
+    <Key>
+      <PropertyRef Name="par_Id" />
+    </Key>
+    <Property Name="par_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="f_name" Type="varchar" MaxLength="50" />
+    <Property Name="f_contact" Type="varchar" MaxLength="50" />
+    <Property Name="m_name" Type="varchar" MaxLength="50" />
+    <Property Name="m_contact" Type="varchar" MaxLength="50" />
+    <Property Name="f_cnic" Type="varchar" MaxLength="50" />
+    <Property Name="f_email" Type="varchar" MaxLength="50" />
+    <Property Name="s_id" Type="int" />
+  </EntityType>
+  <EntityType Name="st_fees">
+    <Key>
+      <PropertyRef Name="f_id" />
+    </Key>
+    <Property Name="f_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="f_month" Type="varchar" MaxLength="50" />
+    <Property Name="f_date" Type="varchar" MaxLength="50" />
+    <Property Name="f_fees" Type="int" />
+    <Property Name="s_id" Type="int" />
+  </EntityType>
+  <EntityType Name="st_subj">
+    <Key>
+      <PropertyRef Name="s_id" />
+    </Key>
+    <Property Name="s_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="s_sub" Type="varchar" MaxLength="100" />
+    <Property Name="s_type" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="std_add">
+    <Key>
+      <PropertyRef Name="s_add" />
+    </Key>
+    <Property Name="s_add" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="s_city" Type="varchar" MaxLength="50" />
+    <Property Name="p_o_b" Type="varchar" MaxLength="50" />
+    <Property Name="d_o_b" Type="varchar" MaxLength="50" />
+    <Property Name="s_address" Type="varchar" MaxLength="50" />
+    <Property Name="s_id" Type="int" />
+  </EntityType>
+  <EntityType Name="std_course">
+    <Key>
+      <PropertyRef Name="c_id" />
+    </Key>
+    <Property Name="c_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="c_name" Type="varchar" MaxLength="100" />
+    <Property Name="c_fees" Type="int" />
+    <Property Name="c_img" Type="varchar" MaxLength="100" />
+    <Property Name="c_desc" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="std_info">
+    <Key>
+      <PropertyRef Name="s_id" />
+    </Key>
+    <Property Name="s_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="s_name" Type="varchar" MaxLength="50" />
+    <Property Name="s_relig" Type="varchar" MaxLength="50" />
+    <Property Name="s_num" Type="varchar" MaxLength="50" />
+    <Property Name="s_gender" Type="varchar" MaxLength="50" />
+    <Property Name="s_email" Type="varchar" MaxLength="50" />
+    <Property Name="s_pic" Type="varchar" MaxLength="100" />
+    <Property Name="s_pass" Type="varchar" MaxLength="50" />
+    <Property Name="s_cpass" Type="varchar" MaxLength="50" />
+    <Property Name="s_batchid" Type="int" />
+  </EntityType>
+  <EntityType Name="std_mat">
+    <Key>
+      <PropertyRef Name="sm_id" />
+    </Key>
+    <Property Name="sm_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="sm_subj" Type="int" />
+    <Property Name="sm_desc" Type="varchar" MaxLength="250" />
+    <Property Name="sm_file" Type="varchar" MaxLength="500" />
+    <Property Name="sm_batch" Type="int" />
+  </EntityType>
+  <EntityType Name="teacher_batch">
+    <Key>
+      <PropertyRef Name="t_batch" />
+    </Key>
+    <Property Name="t_batch" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="bt_id" Type="int" />
+    <Property Name="tb_id" Type="int" />
+  </EntityType>
+  <EntityType Name="teacher_info">
+    <Key>
+      <PropertyRef Name="t_id" />
+    </Key>
+    <Property Name="t_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="t_name" Type="varchar" MaxLength="50" />
+    <Property Name="t_email" Type="varchar" MaxLength="50" />
+    <Property Name="t_salary" Type="int" />
+  </EntityType>
+  <Association Name="FK__as_submit__as_id__59904A2C">
+    <End Role="Assingment" Type="Self.Assingment" Multiplicity="0..1" />
+    <End Role="as_submit" Type="Self.as_submit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Assingment">
+        <PropertyRef Name="as_id" />
+      </Principal>
+      <Dependent Role="as_submit">
+        <PropertyRef Name="as_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__as_submit__s_id__589C25F3">
+    <End Role="std_info" Type="Self.std_info" Multiplicity="0..1" />
+    <End Role="as_submit" Type="Self.as_submit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="std_info">
+        <PropertyRef Name="s_id" />
+      </Principal>
+      <Dependent Role="as_submit">
+        <PropertyRef Name="s_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Assingmen__as_ba__54CB950F">
+    <End Role="batch" Type="Self.batch" Multiplicity="0..1" />
+    <End Role="Assingment" Type="Self.Assingment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="batch">
+        <PropertyRef Name="b_id" />
+      </Principal>
+      <Dependent Role="Assingment">
+        <PropertyRef Name="as_batch" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Assingmen__as_su__55BFB948">
+    <End Role="st_subj" Type="Self.st_subj" Multiplicity="0..1" />
+    <End Role="Assingment" Type="Self.Assingment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="st_subj">
+        <PropertyRef Name="s_id" />
+      </Principal>
+      <Dependent Role="Assingment">
+        <PropertyRef Name="as_sub" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__exam__e_batch__1C873BEC">
+    <End Role="batch" Type="Self.batch" Multiplicity="0..1" />
+    <End Role="exam" Type="Self.exam" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="batch">
+        <PropertyRef Name="b_id" />
+      </Principal>
+      <Dependent Role="exam">
+        <PropertyRef Name="e_batch" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__exam__e_subj__1B9317B3">
+    <End Role="st_subj" Type="Self.st_subj" Multiplicity="0..1" />
+    <End Role="exam" Type="Self.exam" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="st_subj">
+        <PropertyRef Name="s_id" />
+      </Principal>
+      <Dependent Role="exam">
+        <PropertyRef Name="e_subj" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__exam_resu__en_id__43A1090D">
+    <End Role="exam" Type="Self.exam" Multiplicity="0..1" />
+    <End Role="exam_result" Type="Self.exam_result" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="exam">
+        <PropertyRef Name="s_id" />
+      </Principal>
+      <Dependent Role="exam_result">
+        <PropertyRef Name="en_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__exam_resu__et_id__65F62111">
+    <End Role="st_subj" Type="Self.st_subj" Multiplicity="0..1" />
+    <End Role="exam_result" Type="Self.exam_result" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="st_subj">
+        <PropertyRef Name="s_id" />
+      </Principal>
+      <Dependent Role="exam_result">
+        <PropertyRef Name="et_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__exam_resul__s_id__41B8C09B">
+    <End Role="std_info" Type="Self.std_info" Multiplicity="0..1" />
+    <End Role="exam_result" Type="Self.exam_result" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="std_info">
+        <PropertyRef Name="s_id" />
+      </Principal>
+      <Dependent Role="exam_result">
+        <PropertyRef Name="s_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__notice__n_batch__7AF13DF7">
+    <End Role="batch" Type="Self.batch" Multiplicity="0..1" />
+    <End Role="notice" Type="Self.notice" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="batch">
+        <PropertyRef Name="b_id" />
+      </Principal>
+      <Dependent Role="notice">
+        <PropertyRef Name="n_batch" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__parent_inf__s_id__01142BA1">
+    <End Role="std_info" Type="Self.std_info" Multiplicity="0..1" />
+    <End Role="parent_info" Type="Self.parent_info" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="std_info">
+        <PropertyRef Name="s_id" />
+      </Principal>
+      <Dependent Role="parent_info">
+        <PropertyRef Name="s_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__st_fees__s_id__634EBE90">
+    <End Role="std_info" Type="Self.std_info" Multiplicity="0..1" />
+    <End Role="st_fees" Type="Self.st_fees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="std_info">
+        <PropertyRef Name="s_id" />
+      </Principal>
+      <Dependent Role="st_fees">
+        <PropertyRef Name="s_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__std_add__s_id__6FE99F9F">
+    <End Role="std_info" Type="Self.std_info" Multiplicity="0..1" />
+    <End Role="std_add" Type="Self.std_add" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="std_info">
+        <PropertyRef Name="s_id" />
+      </Principal>
+      <Dependent Role="std_add">
+        <PropertyRef Name="s_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__std_info__s_batc__36B12243">
+    <End Role="batch" Type="Self.batch" Multiplicity="0..1" />
+    <End Role="std_info" Type="Self.std_info" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="batch">
+        <PropertyRef Name="b_id" />
+      </Principal>
+      <Dependent Role="std_info">
+        <PropertyRef Name="s_batchid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__std_mat__sm_batc__0A688BB1">
+    <End Role="batch" Type="Self.batch" Multiplicity="0..1" />
+    <End Role="std_mat" Type="Self.std_mat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="batch">
+        <PropertyRef Name="b_id" />
+      </Principal>
+      <Dependent Role="std_mat">
+        <PropertyRef Name="sm_batch" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__std_mat__sm_subj__0B5CAFEA">
+    <End Role="st_subj" Type="Self.st_subj" Multiplicity="0..1" />
+    <End Role="std_mat" Type="Self.std_mat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="st_subj">
+        <PropertyRef Name="s_id" />
+      </Principal>
+      <Dependent Role="std_mat">
+        <PropertyRef Name="sm_subj" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__teacher_b__bt_id__60A75C0F">
+    <End Role="batch" Type="Self.batch" Multiplicity="0..1" />
+    <End Role="teacher_batch" Type="Self.teacher_batch" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="batch">
+        <PropertyRef Name="b_id" />
+      </Principal>
+      <Dependent Role="teacher_batch">
+        <PropertyRef Name="bt_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__teacher_b__tb_id__619B8048">
+    <End Role="teacher_info" Type="Self.teacher_info" Multiplicity="0..1" />
+    <End Role="teacher_batch" Type="Self.teacher_batch" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="teacher_info">
+        <PropertyRef Name="t_id" />
+      </Principal>
+      <Dependent Role="teacher_batch">
+        <PropertyRef Name="tb_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="schoolmanageModelStoreContainer">
+    <EntitySet Name="as_submit" EntityType="Self.as_submit" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Assingment" EntityType="Self.Assingment" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="batch" EntityType="Self.batch" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="exam" EntityType="Self.exam" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="exam_result" EntityType="Self.exam_result" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="notice" EntityType="Self.notice" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="parent_info" EntityType="Self.parent_info" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="st_fees" EntityType="Self.st_fees" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="st_subj" EntityType="Self.st_subj" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="std_add" EntityType="Self.std_add" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="std_course" EntityType="Self.std_course" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="std_info" EntityType="Self.std_info" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="std_mat" EntityType="Self.std_mat" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="teacher_batch" EntityType="Self.teacher_batch" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="teacher_info" EntityType="Self.teacher_info" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__as_submit__as_id__59904A2C" Association="Self.FK__as_submit__as_id__59904A2C">
+      <End Role="Assingment" EntitySet="Assingment" />
+      <End Role="as_submit" EntitySet="as_submit" />
+    </AssociationSet>
+    <AssociationSet Name="FK__as_submit__s_id__589C25F3" Association="Self.FK__as_submit__s_id__589C25F3">
+      <End Role="std_info" EntitySet="std_info" />
+      <End Role="as_submit" EntitySet="as_submit" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Assingmen__as_ba__54CB950F" Association="Self.FK__Assingmen__as_ba__54CB950F">
+      <End Role="batch" EntitySet="batch" />
+      <End Role="Assingment" EntitySet="Assingment" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Assingmen__as_su__55BFB948" Association="Self.FK__Assingmen__as_su__55BFB948">
+      <End Role="st_subj" EntitySet="st_subj" />
+      <End Role="Assingment" EntitySet="Assingment" />
+    </AssociationSet>
+    <AssociationSet Name="FK__exam__e_batch__1C873BEC" Association="Self.FK__exam__e_batch__1C873BEC">
+      <End Role="batch" EntitySet="batch" />
+      <End Role="exam" EntitySet="exam" />
+    </AssociationSet>
+    <AssociationSet Name="FK__exam__e_subj__1B9317B3" Association="Self.FK__exam__e_subj__1B9317B3">
+      <End Role="st_subj" EntitySet="st_subj" />
+      <End Role="exam" EntitySet="exam" />
+    </AssociationSet>
+    <AssociationSet Name="FK__exam_resu__en_id__43A1090D" Association="Self.FK__exam_resu__en_id__43A1090D">
+      <End Role="exam" EntitySet="exam" />
+      <End Role="exam_result" EntitySet="exam_result" />
+    </AssociationSet>
+    <AssociationSet Name="FK__exam_resu__et_id__65F62111" Association="Self.FK__exam_resu__et_id__65F62111">
+      <End Role="st_subj" EntitySet="st_subj" />
+      <End Role="exam_result" EntitySet="exam_result" />
+    </AssociationSet>
+    <AssociationSet Name="FK__exam_resul__s_id__41B8C09B" Association="Self.FK__exam_resul__s_id__41B8C09B">
+      <End Role="std_info" EntitySet="std_info" />
+      <End Role="exam_result" EntitySet="exam_result" />
+    </AssociationSet>
+    <AssociationSet Name="FK__notice__n_batch__7AF13DF7" Association="Self.FK__notice__n_batch__7AF13DF7">
+      <End Role="batch" EntitySet="batch" />
+      <End Role="notice" EntitySet="notice" />
+    </AssociationSet>
+    <AssociationSet Name="FK__parent_inf__s_id__01142BA1" Association="Self.FK__parent_inf__s_id__01142BA1">
+      <End Role="std_info" EntitySet="std_info" />
+      <End Role="parent_info" EntitySet="parent_info" />
+    </AssociationSet>
+    <AssociationSet Name="FK__st_fees__s_id__634EBE90" Association="Self.FK__st_fees__s_id__634EBE90">
+      <End Role="std_info" EntitySet="std_info" />
+      <End Role="st_fees" EntitySet="st_fees" />
+    </AssociationSet>
+    <AssociationSet Name="FK__std_add__s_id__6FE99F9F" Association="Self.FK__std_add__s_id__6FE99F9F">
+      <End Role="std_info" EntitySet="std_info" />
+      <End Role="std_add" EntitySet="std_add" />
+    </AssociationSet>
+    <AssociationSet Name="FK__std_info__s_batc__36B12243" Association="Self.FK__std_info__s_batc__36B12243">
+      <End Role="batch" EntitySet="batch" />
+      <End Role="std_info" EntitySet="std_info" />
+    </AssociationSet>
+    <AssociationSet Name="FK__std_mat__sm_batc__0A688BB1" Association="Self.FK__std_mat__sm_batc__0A688BB1">
+      <End Role="batch" EntitySet="batch" />
+      <End Role="std_mat" EntitySet="std_mat" />
+    </AssociationSet>
+    <AssociationSet Name="FK__std_mat__sm_subj__0B5CAFEA" Association="Self.FK__std_mat__sm_subj__0B5CAFEA">
+      <End Role="st_subj" EntitySet="st_subj" />
+      <End Role="std_mat" EntitySet="std_mat" />
+    </AssociationSet>
+    <AssociationSet Name="FK__teacher_b__bt_id__60A75C0F" Association="Self.FK__teacher_b__bt_id__60A75C0F">
+      <End Role="batch" EntitySet="batch" />
+      <End Role="teacher_batch" EntitySet="teacher_batch" />
+    </AssociationSet>
+    <AssociationSet Name="FK__teacher_b__tb_id__619B8048" Association="Self.FK__teacher_b__tb_id__619B8048">
+      <End Role="teacher_info" EntitySet="teacher_info" />
+      <End Role="teacher_batch" EntitySet="teacher_batch" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

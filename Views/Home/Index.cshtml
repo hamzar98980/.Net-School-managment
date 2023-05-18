@@ -1,0 +1,266 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+
+<link rel="stylesheet" href="~/Content/formstyle.css">
+<script src="~/Scripts/formsrc.js"></script>
+
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-11 col-sm-9 col-md-7 col-lg-6 col-xl-5 text-center p-0 mt-3 mb-2">
+            <div class="card px-0 pt-4 pb-0 mt-3 mb-3">
+                <h2 id="heading">Sign Up Your User Account</h2>
+                <p>Fill all form field to go to next step</p>
+                <div id="msform">
+
+                    <!-- progressbar -->
+                    <ul id="progressbar">
+                        @if (TempData["first"] == null)
+                        {
+                            <li class="active" id="account"><strong>Personal Information</strong></li>
+                        }
+
+
+                        @if (TempData["second"] == null && TempData["first"] != null)
+                        {
+
+                            <li id="personal" class="active"><strong>Student Address</strong></li>
+                        }
+
+                        @if (TempData["third"] == null && TempData["second"] != null && TempData["first"] != null)
+                        {
+                            <li id="payment" class="active"><strong>Personal Information</strong></li>
+
+                        }
+
+
+                        @if (TempData["third"] != null && TempData["second"] != null && TempData["first"] != null)
+                        {
+                            <li id="confirm" class="active"><strong>Finish</strong></li>
+                        }
+                    </ul>
+
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div> <br> <!-- fieldsets -->
+
+
+
+
+
+                    @if (TempData["first"] == null)
+                    {
+                        <fieldset>
+
+                            <div class="form-card">
+
+                                @using (Html.BeginForm("std_inf", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                                {
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <h2 class="fs-title">Account Information:</h2>
+                                        </div>
+                                        <div class="col-5">
+                                            <h2 class="steps">Step 1 - 4</h2>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <label class="fieldlabels">Name: *</label>
+                                            <input type="text" name="name1" placeholder="Name" />
+
+                                            <label class="fieldlabels">Religion: *</label>
+                                            <input type="text" name="relig" placeholder="Religion" />
+
+                                            <label class="fieldlabels">Number: *</label>
+                                            <input type="tel" name="num" placeholder="Number" />
+
+                                            <label class="fieldlabels">Gender: *</label>
+                                            <input type="text" list="chek" name="gender">
+                                            <datalist id="chek">
+
+                                                <option value="Male"> Male </option>
+                                                <option value="Female"> Female </option>
+
+                                                <option value="...">...</option>
+                                            </datalist>
+                                        </div>
+
+                                        <div class="col-6">
+                                            <label class="fieldlabels">Email: *</label>
+                                            <input type="email" name="email" placeholder="Email Id" />
+
+                                            <label class="fieldlabels">Pic: *</label>
+                                            <input type="file" name="file" placeholder="Your Picture" />
+
+                                            <label class="fieldlabels">Password: *</label>
+                                            <input type="password" name="pwd" placeholder="Password" />
+
+                                            <label class="fieldlabels">Confirm Password: *</label>
+                                            <input type="password" name="cpwd" placeholder="Confirm Password" />
+                                        </div>
+                                    </div>
+                                    <input type="submit" name="next" class="btn btn-next btn-fill btn-danger btn-wd" value="Submit" />
+                                }
+                            </div>
+                            
+
+
+                        </fieldset>
+
+                    }
+
+                    @if (TempData["second"] == null && TempData["first"] != null)
+                    {
+                        <fieldset>
+
+                            <div class="form-card">
+                                @using (Html.BeginForm("std_ad", "Home", FormMethod.Post))
+                                {
+
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <h2 class="fs-title">Personal Information:</h2>
+                                        </div>
+                                        <div class="col-5">
+                                            <h2 class="steps">Step 2 - 4</h2>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <label class="fieldlabels">City: *</label>
+                                            <input type="text" name="city" placeholder="City" />
+
+                                            <label class="fieldlabels">Place OF Birth: *</label>
+                                            <input type="text" name="pob" placeholder="Place OF Birth" />
+
+                                        </div>
+
+                                        <div class="col-6">
+                                            <label class="fieldlabels">Date OF Birth: *</label>
+                                            <input type="date" name="dob" placeholder="Date OF Birth" />
+
+                                            <label class="fieldlabels">Address: *</label>
+                                            <input type="text" name="Address" placeholder="Address" />
+
+                                        </div>
+                                    </div>
+
+                                    <input type="submit" name="next" class="btn btn-next btn-fill btn-danger btn-wd" value="Submit" />
+
+                                }
+                            </div>
+
+
+                        </fieldset>
+
+                    }
+
+
+
+
+
+
+                    @if (TempData["third"] == null && TempData["second"] != null && TempData["first"] != null)
+                    {
+
+                        <fieldset>
+                            <div class="form-card">
+                                @using (Html.BeginForm("std_parent", "Home", FormMethod.Post))
+                                {
+
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <h2 class="fs-title">Parents Info:</h2>
+                                        </div>
+
+                                        <div class="col-5">
+                                            <h2 class="steps">Step 3 - 4</h2>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <label class="fieldlabels">Father Name: *</label>
+                                            <input type="text" name="fname" placeholder="Father Name" />
+
+                                            <label class="fieldlabels">Father Contact: *</label>
+                                            <input type="tel" name="fcon" placeholder="Father Conatct" />
+
+                                            <label class="fieldlabels">Mother Name: *</label>
+                                            <input type="text" name="mname" placeholder="Mother Name" />
+
+
+
+                                        </div>
+
+                                        <div class="col-6">
+                                            <label class="fieldlabels">Mother Conatct: *</label>
+                                            <input type="tel" name="mcon" placeholder="Mother Contact" />
+
+                                            <label class="fieldlabels">Father Cnic: *</label>
+                                            <input type="text" name="fcnic" placeholder="Father Cnic" />
+
+                                            <label class="fieldlabels">Father Email: *</label>
+                                            <input type="email" name="femail" placeholder="Father Email" />
+
+                                        </div>
+                                    </div>
+                                    <input type="submit" name="next" class="btn btn-next btn-fill btn-danger btn-wd" value="Submit" />
+
+                                }
+                            </div>
+
+                        </fieldset>
+                    }
+
+
+
+
+
+
+
+                    @if (TempData["third"] != null && TempData["second"] != null && TempData["first"] != null)
+                    {
+
+
+
+                        <fieldset>
+                            <div class="form-card">
+                                <div class="row">
+                                    <div class="col-7">
+                                        <h2 class="fs-title">Finish:</h2>
+                                    </div>
+                                    <div class="col-5">
+                                        <h2 class="steps">Step 4 - 4</h2>
+                                    </div>
+                                </div> <br><br>
+                                <h2 class="purple-text text-center"><strong>SUCCESS !</strong></h2> <br>
+                                <div class="row justify-content-center">
+                                    <div class="col-3"> <img src="https://i.imgur.com/GwStPmg.png" class="fit-image"> </div>
+                                </div> <br><br>
+                                <div class="row justify-content-center">
+                                    <div class="col-7 text-center">
+                                        <h5 class="purple-text text-center">You Have Successfully Signed Up</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

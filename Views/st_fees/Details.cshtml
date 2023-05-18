@@ -1,0 +1,51 @@
+﻿@model managment.Models.st_fees
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/layoutadmin.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>st_fees</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.f_month)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.f_month)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.f_date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.f_date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.f_fees)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.f_fees)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.std_info.s_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.std_info.s_name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.f_id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

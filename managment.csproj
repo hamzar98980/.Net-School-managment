@@ -1,0 +1,1552 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3B9D7868-F503-4E49-9603-5C71C4396D6D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>managment</RootNamespace>
+    <AssemblyName>managment</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44381</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Web.Razor">
+      <HintPath>packages\Microsoft.AspNet.Razor.3.2.7\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages">
+      <HintPath>packages\Microsoft.AspNet.Webpages.3.2.7\lib\net45\System.Web.Webpages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Deployment">
+      <HintPath>packages\Microsoft.AspNet.Webpages.3.2.7\lib\net45\System.Web.Webpages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Razor">
+      <HintPath>packages\Microsoft.AspNet.Webpages.3.2.7\lib\net45\System.Web.Webpages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Helpers">
+      <HintPath>packages\Microsoft.AspNet.Webpages.3.2.7\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>packages\Microsoft.AspNet.Mvc.5.2.7\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\css\custom.css" />
+    <Content Include="Admin\css\font.css" />
+    <Content Include="Admin\css\style.blue.css" />
+    <Content Include="Admin\css\style.default.css" />
+    <Content Include="Admin\css\style.green.css" />
+    <Content Include="Admin\css\style.pink.css" />
+    <Content Include="Admin\css\style.red.css" />
+    <Content Include="Admin\css\style.sea.css" />
+    <Content Include="Admin\css\style.violet.css" />
+    <Content Include="Admin\fonts\dark-dashboard.svg" />
+    <Content Include="Admin\icons-reference\fonts\dark-dashboard.svg" />
+    <Content Include="Admin\icons-reference\icons-reference.html" />
+    <Content Include="Admin\icons-reference\styles.css" />
+    <Content Include="Admin\img\avatar-0.jpg" />
+    <Content Include="Admin\img\avatar-1.jpg" />
+    <Content Include="Admin\img\avatar-10.jpg" />
+    <Content Include="Admin\img\avatar-11.jpg" />
+    <Content Include="Admin\img\avatar-2.jpg" />
+    <Content Include="Admin\img\avatar-3.jpg" />
+    <Content Include="Admin\img\avatar-4.jpg" />
+    <Content Include="Admin\img\avatar-5.jpg" />
+    <Content Include="Admin\img\avatar-6.jpg" />
+    <Content Include="Admin\img\avatar-7.jpg" />
+    <Content Include="Admin\img\avatar-8.jpg" />
+    <Content Include="Admin\img\avatar-9.jpg" />
+    <Content Include="Admin\img\bg.jpeg" />
+    <Content Include="Admin\img\favicon.ico" />
+    <Content Include="Admin\img\flags\16\AD.png" />
+    <Content Include="Admin\img\flags\16\AE.png" />
+    <Content Include="Admin\img\flags\16\AF.png" />
+    <Content Include="Admin\img\flags\16\AG.png" />
+    <Content Include="Admin\img\flags\16\AI.png" />
+    <Content Include="Admin\img\flags\16\AL.png" />
+    <Content Include="Admin\img\flags\16\AM.png" />
+    <Content Include="Admin\img\flags\16\AN.png" />
+    <Content Include="Admin\img\flags\16\AO.png" />
+    <Content Include="Admin\img\flags\16\AQ.png" />
+    <Content Include="Admin\img\flags\16\AR.png" />
+    <Content Include="Admin\img\flags\16\AS.png" />
+    <Content Include="Admin\img\flags\16\AT.png" />
+    <Content Include="Admin\img\flags\16\AU.png" />
+    <Content Include="Admin\img\flags\16\AW.png" />
+    <Content Include="Admin\img\flags\16\AX.png" />
+    <Content Include="Admin\img\flags\16\AZ.png" />
+    <Content Include="Admin\img\flags\16\BA.png" />
+    <Content Include="Admin\img\flags\16\BB.png" />
+    <Content Include="Admin\img\flags\16\BD.png" />
+    <Content Include="Admin\img\flags\16\BE.png" />
+    <Content Include="Admin\img\flags\16\BF.png" />
+    <Content Include="Admin\img\flags\16\BG.png" />
+    <Content Include="Admin\img\flags\16\BH.png" />
+    <Content Include="Admin\img\flags\16\BI.png" />
+    <Content Include="Admin\img\flags\16\BJ.png" />
+    <Content Include="Admin\img\flags\16\BL.png" />
+    <Content Include="Admin\img\flags\16\BM.png" />
+    <Content Include="Admin\img\flags\16\BN.png" />
+    <Content Include="Admin\img\flags\16\BO.png" />
+    <Content Include="Admin\img\flags\16\BR.png" />
+    <Content Include="Admin\img\flags\16\BS.png" />
+    <Content Include="Admin\img\flags\16\BT.png" />
+    <Content Include="Admin\img\flags\16\BW.png" />
+    <Content Include="Admin\img\flags\16\BY.png" />
+    <Content Include="Admin\img\flags\16\BZ.png" />
+    <Content Include="Admin\img\flags\16\CA.png" />
+    <Content Include="Admin\img\flags\16\CC.png" />
+    <Content Include="Admin\img\flags\16\CD.png" />
+    <Content Include="Admin\img\flags\16\CF.png" />
+    <Content Include="Admin\img\flags\16\CG.png" />
+    <Content Include="Admin\img\flags\16\CH.png" />
+    <Content Include="Admin\img\flags\16\CI.png" />
+    <Content Include="Admin\img\flags\16\CK.png" />
+    <Content Include="Admin\img\flags\16\CL.png" />
+    <Content Include="Admin\img\flags\16\CM.png" />
+    <Content Include="Admin\img\flags\16\CN.png" />
+    <Content Include="Admin\img\flags\16\CO.png" />
+    <Content Include="Admin\img\flags\16\CR.png" />
+    <Content Include="Admin\img\flags\16\CT.png" />
+    <Content Include="Admin\img\flags\16\CU.png" />
+    <Content Include="Admin\img\flags\16\CV.png" />
+    <Content Include="Admin\img\flags\16\CW.png" />
+    <Content Include="Admin\img\flags\16\CX.png" />
+    <Content Include="Admin\img\flags\16\CY.png" />
+    <Content Include="Admin\img\flags\16\CZ.png" />
+    <Content Include="Admin\img\flags\16\DE.png" />
+    <Content Include="Admin\img\flags\16\DJ.png" />
+    <Content Include="Admin\img\flags\16\DK.png" />
+    <Content Include="Admin\img\flags\16\DM.png" />
+    <Content Include="Admin\img\flags\16\DO.png" />
+    <Content Include="Admin\img\flags\16\DZ.png" />
+    <Content Include="Admin\img\flags\16\EC.png" />
+    <Content Include="Admin\img\flags\16\EE.png" />
+    <Content Include="Admin\img\flags\16\EG.png" />
+    <Content Include="Admin\img\flags\16\EH.png" />
+    <Content Include="Admin\img\flags\16\ER.png" />
+    <Content Include="Admin\img\flags\16\ES.png" />
+    <Content Include="Admin\img\flags\16\ET.png" />
+    <Content Include="Admin\img\flags\16\EU.png" />
+    <Content Include="Admin\img\flags\16\FI.png" />
+    <Content Include="Admin\img\flags\16\FJ.png" />
+    <Content Include="Admin\img\flags\16\FK.png" />
+    <Content Include="Admin\img\flags\16\FM.png" />
+    <Content Include="Admin\img\flags\16\FO.png" />
+    <Content Include="Admin\img\flags\16\FR.png" />
+    <Content Include="Admin\img\flags\16\GA.png" />
+    <Content Include="Admin\img\flags\16\GB.png" />
+    <Content Include="Admin\img\flags\16\GD.png" />
+    <Content Include="Admin\img\flags\16\GE.png" />
+    <Content Include="Admin\img\flags\16\GG.png" />
+    <Content Include="Admin\img\flags\16\GH.png" />
+    <Content Include="Admin\img\flags\16\GI.png" />
+    <Content Include="Admin\img\flags\16\GL.png" />
+    <Content Include="Admin\img\flags\16\GM.png" />
+    <Content Include="Admin\img\flags\16\GN.png" />
+    <Content Include="Admin\img\flags\16\GQ.png" />
+    <Content Include="Admin\img\flags\16\GR.png" />
+    <Content Include="Admin\img\flags\16\GS.png" />
+    <Content Include="Admin\img\flags\16\GT.png" />
+    <Content Include="Admin\img\flags\16\GU.png" />
+    <Content Include="Admin\img\flags\16\GW.png" />
+    <Content Include="Admin\img\flags\16\GY.png" />
+    <Content Include="Admin\img\flags\16\HK.png" />
+    <Content Include="Admin\img\flags\16\HN.png" />
+    <Content Include="Admin\img\flags\16\HR.png" />
+    <Content Include="Admin\img\flags\16\HT.png" />
+    <Content Include="Admin\img\flags\16\HU.png" />
+    <Content Include="Admin\img\flags\16\IC.png" />
+    <Content Include="Admin\img\flags\16\ID.png" />
+    <Content Include="Admin\img\flags\16\IE.png" />
+    <Content Include="Admin\img\flags\16\IL.png" />
+    <Content Include="Admin\img\flags\16\IM.png" />
+    <Content Include="Admin\img\flags\16\IN.png" />
+    <Content Include="Admin\img\flags\16\IQ.png" />
+    <Content Include="Admin\img\flags\16\IR.png" />
+    <Content Include="Admin\img\flags\16\IS.png" />
+    <Content Include="Admin\img\flags\16\IT.png" />
+    <Content Include="Admin\img\flags\16\JE.png" />
+    <Content Include="Admin\img\flags\16\JM.png" />
+    <Content Include="Admin\img\flags\16\JO.png" />
+    <Content Include="Admin\img\flags\16\JP.png" />
+    <Content Include="Admin\img\flags\16\KE.png" />
+    <Content Include="Admin\img\flags\16\KG.png" />
+    <Content Include="Admin\img\flags\16\KH.png" />
+    <Content Include="Admin\img\flags\16\KI.png" />
+    <Content Include="Admin\img\flags\16\KM.png" />
+    <Content Include="Admin\img\flags\16\KN.png" />
+    <Content Include="Admin\img\flags\16\KP.png" />
+    <Content Include="Admin\img\flags\16\KR.png" />
+    <Content Include="Admin\img\flags\16\KW.png" />
+    <Content Include="Admin\img\flags\16\KY.png" />
+    <Content Include="Admin\img\flags\16\KZ.png" />
+    <Content Include="Admin\img\flags\16\LA.png" />
+    <Content Include="Admin\img\flags\16\LB.png" />
+    <Content Include="Admin\img\flags\16\LC.png" />
+    <Content Include="Admin\img\flags\16\LI.png" />
+    <Content Include="Admin\img\flags\16\LK.png" />
+    <Content Include="Admin\img\flags\16\LR.png" />
+    <Content Include="Admin\img\flags\16\LS.png" />
+    <Content Include="Admin\img\flags\16\LT.png" />
+    <Content Include="Admin\img\flags\16\LU.png" />
+    <Content Include="Admin\img\flags\16\LV.png" />
+    <Content Include="Admin\img\flags\16\LY.png" />
+    <Content Include="Admin\img\flags\16\MA.png" />
+    <Content Include="Admin\img\flags\16\MC.png" />
+    <Content Include="Admin\img\flags\16\MD.png" />
+    <Content Include="Admin\img\flags\16\ME.png" />
+    <Content Include="Admin\img\flags\16\MF.png" />
+    <Content Include="Admin\img\flags\16\MG.png" />
+    <Content Include="Admin\img\flags\16\MH.png" />
+    <Content Include="Admin\img\flags\16\MK.png" />
+    <Content Include="Admin\img\flags\16\ML.png" />
+    <Content Include="Admin\img\flags\16\MM.png" />
+    <Content Include="Admin\img\flags\16\MN.png" />
+    <Content Include="Admin\img\flags\16\MO.png" />
+    <Content Include="Admin\img\flags\16\MP.png" />
+    <Content Include="Admin\img\flags\16\MQ.png" />
+    <Content Include="Admin\img\flags\16\MR.png" />
+    <Content Include="Admin\img\flags\16\MS.png" />
+    <Content Include="Admin\img\flags\16\MT.png" />
+    <Content Include="Admin\img\flags\16\MU.png" />
+    <Content Include="Admin\img\flags\16\MV.png" />
+    <Content Include="Admin\img\flags\16\MW.png" />
+    <Content Include="Admin\img\flags\16\MX.png" />
+    <Content Include="Admin\img\flags\16\MY.png" />
+    <Content Include="Admin\img\flags\16\MZ.png" />
+    <Content Include="Admin\img\flags\16\NA.png" />
+    <Content Include="Admin\img\flags\16\NC.png" />
+    <Content Include="Admin\img\flags\16\NE.png" />
+    <Content Include="Admin\img\flags\16\NF.png" />
+    <Content Include="Admin\img\flags\16\NG.png" />
+    <Content Include="Admin\img\flags\16\NI.png" />
+    <Content Include="Admin\img\flags\16\NL.png" />
+    <Content Include="Admin\img\flags\16\NO.png" />
+    <Content Include="Admin\img\flags\16\NP.png" />
+    <Content Include="Admin\img\flags\16\NR.png" />
+    <Content Include="Admin\img\flags\16\NU.png" />
+    <Content Include="Admin\img\flags\16\NZ.png" />
+    <Content Include="Admin\img\flags\16\OM.png" />
+    <Content Include="Admin\img\flags\16\PA.png" />
+    <Content Include="Admin\img\flags\16\PE.png" />
+    <Content Include="Admin\img\flags\16\PF.png" />
+    <Content Include="Admin\img\flags\16\PG.png" />
+    <Content Include="Admin\img\flags\16\PH.png" />
+    <Content Include="Admin\img\flags\16\PK.png" />
+    <Content Include="Admin\img\flags\16\PL.png" />
+    <Content Include="Admin\img\flags\16\PN.png" />
+    <Content Include="Admin\img\flags\16\PR.png" />
+    <Content Include="Admin\img\flags\16\PS.png" />
+    <Content Include="Admin\img\flags\16\PT.png" />
+    <Content Include="Admin\img\flags\16\PW.png" />
+    <Content Include="Admin\img\flags\16\PY.png" />
+    <Content Include="Admin\img\flags\16\QA.png" />
+    <Content Include="Admin\img\flags\16\RE.png" />
+    <Content Include="Admin\img\flags\16\RO.png" />
+    <Content Include="Admin\img\flags\16\RS.png" />
+    <Content Include="Admin\img\flags\16\RU.png" />
+    <Content Include="Admin\img\flags\16\RW.png" />
+    <Content Include="Admin\img\flags\16\SA.png" />
+    <Content Include="Admin\img\flags\16\SB.png" />
+    <Content Include="Admin\img\flags\16\SC.png" />
+    <Content Include="Admin\img\flags\16\SD.png" />
+    <Content Include="Admin\img\flags\16\SE.png" />
+    <Content Include="Admin\img\flags\16\SG.png" />
+    <Content Include="Admin\img\flags\16\SH.png" />
+    <Content Include="Admin\img\flags\16\SI.png" />
+    <Content Include="Admin\img\flags\16\SK.png" />
+    <Content Include="Admin\img\flags\16\SL.png" />
+    <Content Include="Admin\img\flags\16\SM.png" />
+    <Content Include="Admin\img\flags\16\SN.png" />
+    <Content Include="Admin\img\flags\16\SO.png" />
+    <Content Include="Admin\img\flags\16\SR.png" />
+    <Content Include="Admin\img\flags\16\SS.png" />
+    <Content Include="Admin\img\flags\16\ST.png" />
+    <Content Include="Admin\img\flags\16\SV.png" />
+    <Content Include="Admin\img\flags\16\SX.png" />
+    <Content Include="Admin\img\flags\16\SY.png" />
+    <Content Include="Admin\img\flags\16\SZ.png" />
+    <Content Include="Admin\img\flags\16\TC.png" />
+    <Content Include="Admin\img\flags\16\TD.png" />
+    <Content Include="Admin\img\flags\16\TF.png" />
+    <Content Include="Admin\img\flags\16\TG.png" />
+    <Content Include="Admin\img\flags\16\TH.png" />
+    <Content Include="Admin\img\flags\16\TJ.png" />
+    <Content Include="Admin\img\flags\16\TK.png" />
+    <Content Include="Admin\img\flags\16\TL.png" />
+    <Content Include="Admin\img\flags\16\TM.png" />
+    <Content Include="Admin\img\flags\16\TN.png" />
+    <Content Include="Admin\img\flags\16\TO.png" />
+    <Content Include="Admin\img\flags\16\TR.png" />
+    <Content Include="Admin\img\flags\16\TT.png" />
+    <Content Include="Admin\img\flags\16\TV.png" />
+    <Content Include="Admin\img\flags\16\TW.png" />
+    <Content Include="Admin\img\flags\16\TZ.png" />
+    <Content Include="Admin\img\flags\16\UA.png" />
+    <Content Include="Admin\img\flags\16\UG.png" />
+    <Content Include="Admin\img\flags\16\US.png" />
+    <Content Include="Admin\img\flags\16\UY.png" />
+    <Content Include="Admin\img\flags\16\UZ.png" />
+    <Content Include="Admin\img\flags\16\VA.png" />
+    <Content Include="Admin\img\flags\16\VC.png" />
+    <Content Include="Admin\img\flags\16\VE.png" />
+    <Content Include="Admin\img\flags\16\VG.png" />
+    <Content Include="Admin\img\flags\16\VI.png" />
+    <Content Include="Admin\img\flags\16\VN.png" />
+    <Content Include="Admin\img\flags\16\VU.png" />
+    <Content Include="Admin\img\flags\16\WF.png" />
+    <Content Include="Admin\img\flags\16\WS.png" />
+    <Content Include="Admin\img\flags\16\YE.png" />
+    <Content Include="Admin\img\flags\16\YT.png" />
+    <Content Include="Admin\img\flags\16\ZA.png" />
+    <Content Include="Admin\img\flags\16\ZM.png" />
+    <Content Include="Admin\img\flags\16\ZW.png" />
+    <Content Include="Admin\img\flags\16\_abkhazia.png" />
+    <Content Include="Admin\img\flags\16\_basque-country.png" />
+    <Content Include="Admin\img\flags\16\_british-antarctic-territory.png" />
+    <Content Include="Admin\img\flags\16\_commonwealth.png" />
+    <Content Include="Admin\img\flags\16\_england.png" />
+    <Content Include="Admin\img\flags\16\_gosquared.png" />
+    <Content Include="Admin\img\flags\16\_kosovo.png" />
+    <Content Include="Admin\img\flags\16\_mars.png" />
+    <Content Include="Admin\img\flags\16\_nagorno-karabakh.png" />
+    <Content Include="Admin\img\flags\16\_nato.png" />
+    <Content Include="Admin\img\flags\16\_northern-cyprus.png" />
+    <Content Include="Admin\img\flags\16\_olympics.png" />
+    <Content Include="Admin\img\flags\16\_red-cross.png" />
+    <Content Include="Admin\img\flags\16\_scotland.png" />
+    <Content Include="Admin\img\flags\16\_somaliland.png" />
+    <Content Include="Admin\img\flags\16\_south-ossetia.png" />
+    <Content Include="Admin\img\flags\16\_united-nations.png" />
+    <Content Include="Admin\img\flags\16\_unknown.png" />
+    <Content Include="Admin\img\flags\16\_wales.png" />
+    <Content Include="Admin\img\map-close.png" />
+    <Content Include="Admin\img\map-marker-blue.png" />
+    <Content Include="Admin\img\map-marker-default.png" />
+    <Content Include="Admin\img\map-marker-green.png" />
+    <Content Include="Admin\img\map-marker-pink.png" />
+    <Content Include="Admin\img\map-marker-red.png" />
+    <Content Include="Admin\img\map-marker-sea.png" />
+    <Content Include="Admin\img\map-marker-violet.png" />
+    <Content Include="Admin\img\map-marker.png" />
+    <Content Include="Admin\img\mockup1.jpg" />
+    <Content Include="Admin\img\mockup2.jpg" />
+    <Content Include="Admin\img\mockup3.jpg" />
+    <Content Include="Admin\img\mockup4.jpg" />
+    <Content Include="Admin\img\mockup5.jpg" />
+    <Content Include="Admin\img\mockup6.jpg" />
+    <Content Include="Admin\img\mockup7.jpg" />
+    <Content Include="Admin\img\multiselect-switch.png" />
+    <Content Include="Admin\img\photos\paul-morris-116514-unsplash.jpg" />
+    <Content Include="Admin\img\template-mac.png" />
+    <Content Include="Admin\js\charts-custom.js" />
+    <Content Include="Admin\js\charts-home.js" />
+    <Content Include="Admin\js\front.js" />
+    <Content Include="Admin\login.html" />
+    <Content Include="Admin\vendor\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="Admin\vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="Admin\vendor\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="Admin\vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="Admin\vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="Admin\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Admin\vendor\bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="Admin\vendor\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="Admin\vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="Admin\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Admin\vendor\chart.js\Chart.bundle.js" />
+    <Content Include="Admin\vendor\chart.js\Chart.bundle.min.js" />
+    <Content Include="Admin\vendor\chart.js\Chart.js" />
+    <Content Include="Admin\vendor\chart.js\Chart.min.js" />
+    <Content Include="Admin\vendor\font-awesome\css\font-awesome.css" />
+    <Content Include="Admin\vendor\font-awesome\css\font-awesome.min.css" />
+    <Content Include="Admin\vendor\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="Admin\vendor\font-awesome\HELP-US-OUT.txt" />
+    <Content Include="Admin\vendor\jquery-validation\additional-methods.js" />
+    <Content Include="Admin\vendor\jquery-validation\jquery.validate.js" />
+    <Content Include="Admin\vendor\jquery-validation\jquery.validate.min.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_ar.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_az.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_bg.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_bn_BD.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_ca.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_cs.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_da.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_de.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_el.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_es.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_es_AR.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_es_PE.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_et.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_eu.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_fa.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_fi.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_fr.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_ge.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_gl.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_he.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_hr.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_hu.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_hy_AM.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_id.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_is.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_it.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_ja.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_ka.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_kk.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_ko.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_lt.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_lv.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_mk.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_my.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_nl.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_no.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_pl.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_pt_BR.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_pt_PT.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_ro.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_ru.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_sd.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_si.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_sk.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_sl.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_sr.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_sr_lat.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_sv.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_th.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_tj.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_tr.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_uk.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_ur.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_vi.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_zh.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\messages_zh_TW.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\methods_de.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\methods_es_CL.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\methods_fi.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\methods_nl.js" />
+    <Content Include="Admin\vendor\jquery-validation\localization\methods_pt.js" />
+    <Content Include="Admin\vendor\jquery.cookie\jquery.cookie.js" />
+    <Content Include="Admin\vendor\jquery.cookie\MIT-LICENSE.txt" />
+    <Content Include="Admin\vendor\jquery\core.js" />
+    <Content Include="Admin\vendor\jquery\jquery.js" />
+    <Content Include="Admin\vendor\jquery\jquery.min.js" />
+    <Content Include="Admin\vendor\jquery\jquery.slim.js" />
+    <Content Include="Admin\vendor\jquery\jquery.slim.min.js" />
+    <Content Include="Admin\vendor\popper.js\esm\popper-utils.js" />
+    <Content Include="Admin\vendor\popper.js\esm\popper-utils.min.js" />
+    <Content Include="Admin\vendor\popper.js\esm\popper.js" />
+    <Content Include="Admin\vendor\popper.js\esm\popper.min.js" />
+    <Content Include="Admin\vendor\popper.js\popper-utils.js" />
+    <Content Include="Admin\vendor\popper.js\popper-utils.min.js" />
+    <Content Include="Admin\vendor\popper.js\popper.js" />
+    <Content Include="Admin\vendor\popper.js\popper.min.js" />
+    <Content Include="Admin\vendor\popper.js\umd\popper-utils.js" />
+    <Content Include="Admin\vendor\popper.js\umd\popper-utils.min.js" />
+    <Content Include="Admin\vendor\popper.js\umd\popper.js" />
+    <Content Include="Admin\vendor\popper.js\umd\popper.min.js" />
+    <Content Include="App_Data\schoolmanage.mdf" />
+    <Content Include="App_Data\schoolmanage_log.ldf">
+      <DependentUpon>schoolmanage.mdf</DependentUpon>
+    </Content>
+    <Content Include="Content\bootstrap-grid.css" />
+    <Content Include="Content\bootstrap-grid.min.css" />
+    <Content Include="Content\bootstrap-grid.rtl.css" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css" />
+    <Content Include="Content\bootstrap-reboot.css" />
+    <Content Include="Content\bootstrap-reboot.min.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css" />
+    <Content Include="Content\bootstrap-utilities.css" />
+    <Content Include="Content\bootstrap-utilities.min.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\bootstrap.rtl.css" />
+    <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\Filesaver.js" />
+    <Content Include="Content\formstyle.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="dashboard\css\plugins.css" />
+    <Content Include="dashboard\css\skin-1.css" />
+    <Content Include="dashboard\css\style.css" />
+    <Content Include="dashboard\css\templete.css" />
+    <Content Include="dashboard\plugins\bootstrap.min.js" />
+    <Content Include="dashboard\plugins\popper.min.js" />
+    <Content Include="Global.asax" />
+    <Content Include="Images\img2.png" />
+    <Content Include="Images\kimberly-farmer-lUaaKCUANVI-unsplash.jpg" />
+    <Content Include="index style\about1.jpg" />
+    <Content Include="index style\bg1.jpg" />
+    <Content Include="index style\bootstrap-select.min.js" />
+    <Content Include="index style\bootstrap.min.js" />
+    <Content Include="index style\core-value.png" />
+    <Content Include="index style\counterup.min.js" />
+    <Content Include="index style\css\font-awesome.min.css" />
+    <Content Include="index style\css\fontawesome-all.css" />
+    <Content Include="index style\css\fontawesome-all.min.css" />
+    <Content Include="index style\css\plugins.css" />
+    <Content Include="index style\css\themify-icons.css" />
+    <Content Include="index style\custom.js" />
+    <Content Include="index style\custom.min.js" />
+    <Content Include="index style\dz.carousel.js" />
+    <Content Include="index style\fontawesome-all.css" />
+    <Content Include="index style\fontawesome-all.min.css" />
+    <Content Include="index style\imagesloaded.js" />
+    <Content Include="index style\jquery.bootstrap-touchspin.js" />
+    <Content Include="index style\jquery.countdown.js" />
+    <Content Include="index style\jquery.lazy.min.js" />
+    <Content Include="index style\jquery.min.js" />
+    <Content Include="index style\lightgallery-all.min.js" />
+    <Content Include="index style\magnific-popup.js" />
+    <Content Include="index style\masonry-3.1.4.js" />
+    <Content Include="index style\masonry.filter.js" />
+    <Content Include="index style\owl.carousel.js" />
+    <Content Include="index style\pic1.jpg" />
+    <Content Include="index style\pic2.jpg" />
+    <Content Include="index style\pic3 %282%29.jpg" />
+    <Content Include="index style\pic6.jpg" />
+    <Content Include="index style\pic7.jpg" />
+    <Content Include="index style\plugins.css" />
+    <Content Include="index style\popper.min.js" />
+    <Content Include="index style\rangeslider.js" />
+    <Content Include="index style\revolution.extension.actions.min.js" />
+    <Content Include="index style\revolution.extension.carousel.min.js" />
+    <Content Include="index style\revolution.extension.kenburn.min.js" />
+    <Content Include="index style\revolution.extension.layeranimation.min.js" />
+    <Content Include="index style\revolution.extension.migration.min.js" />
+    <Content Include="index style\revolution.extension.navigation.min.js" />
+    <Content Include="index style\revolution.extension.parallax.min.js" />
+    <Content Include="index style\revolution.extension.slideanims.min.js" />
+    <Content Include="index style\revolution.extension.video.min.js" />
+    <Content Include="index style\skin-3.css" />
+    <Content Include="index style\style.css" />
+    <Content Include="index style\Temp-100x100 %281%29.jpg" />
+    <Content Include="index style\Temp-100x100 %282%29.jpg" />
+    <Content Include="index style\Temp-100x100.jpg" />
+    <Content Include="index style\templete.css" />
+    <Content Include="index style\thum1.jpg" />
+    <Content Include="index style\waypoints-min.js" />
+    <Content Include="index style\world-map-02.png" />
+    <Content Include="index style\wow.js" />
+    <Content Include="Models\Model1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\Model1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.cs</LastGenOutput>
+    </Content>
+    <Content Include="nav\bootstrap.min.js" />
+    <Content Include="nav\custom.js" />
+    <Content Include="nav\jquery.min.js" />
+    <Content Include="nav\logo.png" />
+    <Content Include="nav\plugins.css" />
+    <Content Include="nav\plugins.min.css" />
+    <Content Include="nav\skin-1.css" />
+    <Content Include="nav\style.css" />
+    <Content Include="nav\style.min.css" />
+    <Content Include="nav\templete.css" />
+    <Content Include="nav\templete.min.css" />
+    <Content Include="nav\wow.js" />
+    <Content Include="NewTemp\css\animate.css" />
+    <Content Include="NewTemp\css\bootstrap.min.css" />
+    <Content Include="NewTemp\css\dropdown-effects\fade-down.css" />
+    <Content Include="NewTemp\css\dropdown-effects\fade-left.css" />
+    <Content Include="NewTemp\css\dropdown-effects\fade-right.css" />
+    <Content Include="NewTemp\css\dropdown-effects\fade-up.css" />
+    <Content Include="NewTemp\css\dropdown-effects\rotate-x.css" />
+    <Content Include="NewTemp\css\dropdown-effects\rotate-y.css" />
+    <Content Include="NewTemp\css\flaticon.css" />
+    <Content Include="NewTemp\css\flexslider.css" />
+    <Content Include="NewTemp\css\magnific-popup.css" />
+    <Content Include="NewTemp\css\menu.css" />
+    <Content Include="NewTemp\css\owl.carousel.min.css" />
+    <Content Include="NewTemp\css\owl.theme.default.min.css" />
+    <Content Include="NewTemp\css\responsive.css" />
+    <Content Include="NewTemp\css\style.css" />
+    <Content Include="NewTemp\images\apple-touch-icon-120x120.png" />
+    <Content Include="NewTemp\images\apple-touch-icon-152x152.png" />
+    <Content Include="NewTemp\images\apple-touch-icon-76x76.png" />
+    <Content Include="NewTemp\images\apple-touch-icon.png" />
+    <Content Include="NewTemp\images\back-to-top.png" />
+    <Content Include="NewTemp\images\banner-3-img.jpg" />
+    <Content Include="NewTemp\images\banner-4.jpg" />
+    <Content Include="NewTemp\images\bg-01.jpg" />
+    <Content Include="NewTemp\images\bg-02.jpg" />
+    <Content Include="NewTemp\images\bg-03.jpg" />
+    <Content Include="NewTemp\images\bg-04.jpg" />
+    <Content Include="NewTemp\images\bg-05.jpg" />
+    <Content Include="NewTemp\images\bg-06.jpg" />
+    <Content Include="NewTemp\images\bg-map.png" />
+    <Content Include="NewTemp\images\bg01.jpg" />
+    <Content Include="NewTemp\images\blog\article-1.jpg" />
+    <Content Include="NewTemp\images\blog\article-2.jpg" />
+    <Content Include="NewTemp\images\blog\article-3.jpg" />
+    <Content Include="NewTemp\images\blog\article-4.jpg" />
+    <Content Include="NewTemp\images\blog\article-5.jpg" />
+    <Content Include="NewTemp\images\blog\article-6.jpg" />
+    <Content Include="NewTemp\images\blog\article-7.jpg" />
+    <Content Include="NewTemp\images\blog\article-8.jpg" />
+    <Content Include="NewTemp\images\blog\featured-news.jpg" />
+    <Content Include="NewTemp\images\blog\latest-post-1.jpg" />
+    <Content Include="NewTemp\images\blog\latest-post-2.jpg" />
+    <Content Include="NewTemp\images\blog\latest-post-3.jpg" />
+    <Content Include="NewTemp\images\blog\post-img-1.jpg" />
+    <Content Include="NewTemp\images\brand-1.png" />
+    <Content Include="NewTemp\images\brand-11.png" />
+    <Content Include="NewTemp\images\brand-12.png" />
+    <Content Include="NewTemp\images\brand-13.png" />
+    <Content Include="NewTemp\images\brand-14.png" />
+    <Content Include="NewTemp\images\brand-15.png" />
+    <Content Include="NewTemp\images\brand-16.png" />
+    <Content Include="NewTemp\images\brand-17.png" />
+    <Content Include="NewTemp\images\brand-18.png" />
+    <Content Include="NewTemp\images\brand-19.png" />
+    <Content Include="NewTemp\images\brand-2.png" />
+    <Content Include="NewTemp\images\brand-3.png" />
+    <Content Include="NewTemp\images\brand-4.png" />
+    <Content Include="NewTemp\images\brand-5.png" />
+    <Content Include="NewTemp\images\brand-6.png" />
+    <Content Include="NewTemp\images\brand-7.png" />
+    <Content Include="NewTemp\images\brand-8.png" />
+    <Content Include="NewTemp\images\brand-9.png" />
+    <Content Include="NewTemp\images\courses\course-1-img.jpg" />
+    <Content Include="NewTemp\images\courses\course-10-img.jpg" />
+    <Content Include="NewTemp\images\courses\course-11-img.jpg" />
+    <Content Include="NewTemp\images\courses\course-12-img.jpg" />
+    <Content Include="NewTemp\images\courses\course-13-img.jpg" />
+    <Content Include="NewTemp\images\courses\course-14-img.jpg" />
+    <Content Include="NewTemp\images\courses\course-15-img.jpg" />
+    <Content Include="NewTemp\images\courses\course-16-img.jpg" />
+    <Content Include="NewTemp\images\courses\course-17-img.jpg" />
+    <Content Include="NewTemp\images\courses\course-18-img.jpg" />
+    <Content Include="NewTemp\images\courses\course-19-img.jpg" />
+    <Content Include="NewTemp\images\courses\course-2-img.jpg" />
+    <Content Include="NewTemp\images\courses\course-20-img.jpg" />
+    <Content Include="NewTemp\images\courses\course-21-img.jpg" />
+    <Content Include="NewTemp\images\courses\course-22-img.jpg" />
+    <Content Include="NewTemp\images\courses\course-23-img.jpg" />
+    <Content Include="NewTemp\images\courses\course-24-img.jpg" />
+    <Content Include="NewTemp\images\courses\course-3-img.jpg" />
+    <Content Include="NewTemp\images\courses\course-4-img.jpg" />
+    <Content Include="NewTemp\images\courses\course-5-img.jpg" />
+    <Content Include="NewTemp\images\courses\course-6-img.jpg" />
+    <Content Include="NewTemp\images\courses\course-7-img.jpg" />
+    <Content Include="NewTemp\images\courses\course-8-img.jpg" />
+    <Content Include="NewTemp\images\courses\course-9-img.jpg" />
+    <Content Include="NewTemp\images\crown.png" />
+    <Content Include="NewTemp\images\favicon.ico" />
+    <Content Include="NewTemp\images\hero-2-img.png" />
+    <Content Include="NewTemp\images\hero-2.jpg" />
+    <Content Include="NewTemp\images\hero-3.jpg" />
+    <Content Include="NewTemp\images\hero-4.jpg" />
+    <Content Include="NewTemp\images\hero-6.jpg" />
+    <Content Include="NewTemp\images\hero-8.jpg" />
+    <Content Include="NewTemp\images\hero-9.jpg" />
+    <Content Include="NewTemp\images\icons\abacus.png" />
+    <Content Include="NewTemp\images\icons\abc-1.png" />
+    <Content Include="NewTemp\images\icons\abc.png" />
+    <Content Include="NewTemp\images\icons\agenda.png" />
+    <Content Include="NewTemp\images\icons\alarm-clock.png" />
+    <Content Include="NewTemp\images\icons\android.png" />
+    <Content Include="NewTemp\images\icons\approved-1.png" />
+    <Content Include="NewTemp\images\icons\approved.png" />
+    <Content Include="NewTemp\images\icons\atomic.png" />
+    <Content Include="NewTemp\images\icons\audio.png" />
+    <Content Include="NewTemp\images\icons\blogging.png" />
+    <Content Include="NewTemp\images\icons\book-1.png" />
+    <Content Include="NewTemp\images\icons\book.png" />
+    <Content Include="NewTemp\images\icons\bookshelf-1.png" />
+    <Content Include="NewTemp\images\icons\bookshelf.png" />
+    <Content Include="NewTemp\images\icons\browser-1.png" />
+    <Content Include="NewTemp\images\icons\browser-3.png" />
+    <Content Include="NewTemp\images\icons\browser.png" />
+    <Content Include="NewTemp\images\icons\browsing.png" />
+    <Content Include="NewTemp\images\icons\calculator-1.png" />
+    <Content Include="NewTemp\images\icons\calculator.png" />
+    <Content Include="NewTemp\images\icons\calendar-1.png" />
+    <Content Include="NewTemp\images\icons\calendar.png" />
+    <Content Include="NewTemp\images\icons\canvas.png" />
+    <Content Include="NewTemp\images\icons\cash.png" />
+    <Content Include="NewTemp\images\icons\categories\calculator.png" />
+    <Content Include="NewTemp\images\icons\categories\chip.png" />
+    <Content Include="NewTemp\images\icons\categories\design.png" />
+    <Content Include="NewTemp\images\icons\categories\development.png" />
+    <Content Include="NewTemp\images\icons\categories\finance.png" />
+    <Content Include="NewTemp\images\icons\categories\gear.png" />
+    <Content Include="NewTemp\images\icons\categories\heartbeat.png" />
+    <Content Include="NewTemp\images\icons\categories\human-mind.png" />
+    <Content Include="NewTemp\images\icons\categories\marketing.png" />
+    <Content Include="NewTemp\images\icons\categories\money.png" />
+    <Content Include="NewTemp\images\icons\categories\photo.png" />
+    <Content Include="NewTemp\images\icons\categories\science.png" />
+    <Content Include="NewTemp\images\icons\categories\software.png" />
+    <Content Include="NewTemp\images\icons\categories\target.png" />
+    <Content Include="NewTemp\images\icons\categories\translation.png" />
+    <Content Include="NewTemp\images\icons\certificate-1.png" />
+    <Content Include="NewTemp\images\icons\certificate.png" />
+    <Content Include="NewTemp\images\icons\chat.png" />
+    <Content Include="NewTemp\images\icons\checklist.png" />
+    <Content Include="NewTemp\images\icons\classroom.png" />
+    <Content Include="NewTemp\images\icons\clock.png" />
+    <Content Include="NewTemp\images\icons\communication.png" />
+    <Content Include="NewTemp\images\icons\compass.png" />
+    <Content Include="NewTemp\images\icons\computer-1.png" />
+    <Content Include="NewTemp\images\icons\computer.png" />
+    <Content Include="NewTemp\images\icons\contract.png" />
+    <Content Include="NewTemp\images\icons\conversation.png" />
+    <Content Include="NewTemp\images\icons\creative.png" />
+    <Content Include="NewTemp\images\icons\credit-card.png" />
+    <Content Include="NewTemp\images\icons\crown.png" />
+    <Content Include="NewTemp\images\icons\degree.png" />
+    <Content Include="NewTemp\images\icons\desktop-computer.png" />
+    <Content Include="NewTemp\images\icons\development.png" />
+    <Content Include="NewTemp\images\icons\diploma.png" />
+    <Content Include="NewTemp\images\icons\document.png" />
+    <Content Include="NewTemp\images\icons\documents.png" />
+    <Content Include="NewTemp\images\icons\ebook-1.png" />
+    <Content Include="NewTemp\images\icons\ebook.png" />
+    <Content Include="NewTemp\images\icons\education-1.png" />
+    <Content Include="NewTemp\images\icons\education.png" />
+    <Content Include="NewTemp\images\icons\elearning-1.png" />
+    <Content Include="NewTemp\images\icons\elearning.png" />
+    <Content Include="NewTemp\images\icons\email.png" />
+    <Content Include="NewTemp\images\icons\emergency.png" />
+    <Content Include="NewTemp\images\icons\encyclopedia.png" />
+    <Content Include="NewTemp\images\icons\ethernet.png" />
+    <Content Include="NewTemp\images\icons\experiment.png" />
+    <Content Include="NewTemp\images\icons\faq.png" />
+    <Content Include="NewTemp\images\icons\file.png" />
+    <Content Include="NewTemp\images\icons\film.png" />
+    <Content Include="NewTemp\images\icons\finance.png" />
+    <Content Include="NewTemp\images\icons\first.png" />
+    <Content Include="NewTemp\images\icons\flag.png" />
+    <Content Include="NewTemp\images\icons\flags\abkhazia.png" />
+    <Content Include="NewTemp\images\icons\flags\afghanistan.png" />
+    <Content Include="NewTemp\images\icons\flags\aland-islands.png" />
+    <Content Include="NewTemp\images\icons\flags\albania.png" />
+    <Content Include="NewTemp\images\icons\flags\algeria.png" />
+    <Content Include="NewTemp\images\icons\flags\andorra.png" />
+    <Content Include="NewTemp\images\icons\flags\angola.png" />
+    <Content Include="NewTemp\images\icons\flags\antigua-and-barbuda.png" />
+    <Content Include="NewTemp\images\icons\flags\argentina.png" />
+    <Content Include="NewTemp\images\icons\flags\armenia.png" />
+    <Content Include="NewTemp\images\icons\flags\austria.png" />
+    <Content Include="NewTemp\images\icons\flags\azerbaijan.png" />
+    <Content Include="NewTemp\images\icons\flags\bahamas.png" />
+    <Content Include="NewTemp\images\icons\flags\bahrain.png" />
+    <Content Include="NewTemp\images\icons\flags\bangladesh.png" />
+    <Content Include="NewTemp\images\icons\flags\barbados.png" />
+    <Content Include="NewTemp\images\icons\flags\basque-country.png" />
+    <Content Include="NewTemp\images\icons\flags\belarus.png" />
+    <Content Include="NewTemp\images\icons\flags\belgium.png" />
+    <Content Include="NewTemp\images\icons\flags\bosnia-and-herzegovina.png" />
+    <Content Include="NewTemp\images\icons\flags\brazil.png" />
+    <Content Include="NewTemp\images\icons\flags\bulgaria.png" />
+    <Content Include="NewTemp\images\icons\flags\cambodia.png" />
+    <Content Include="NewTemp\images\icons\flags\cameroon.png" />
+    <Content Include="NewTemp\images\icons\flags\chad.png" />
+    <Content Include="NewTemp\images\icons\flags\chile.png" />
+    <Content Include="NewTemp\images\icons\flags\china.png" />
+    <Content Include="NewTemp\images\icons\flags\colombia.png" />
+    <Content Include="NewTemp\images\icons\flags\costa-rica.png" />
+    <Content Include="NewTemp\images\icons\flags\croatia.png" />
+    <Content Include="NewTemp\images\icons\flags\cuba.png" />
+    <Content Include="NewTemp\images\icons\flags\czech-republic.png" />
+    <Content Include="NewTemp\images\icons\flags\denmark.png" />
+    <Content Include="NewTemp\images\icons\flags\dominica.png" />
+    <Content Include="NewTemp\images\icons\flags\dominican-republic.png" />
+    <Content Include="NewTemp\images\icons\flags\ecuador.png" />
+    <Content Include="NewTemp\images\icons\flags\egypt.png" />
+    <Content Include="NewTemp\images\icons\flags\estonia.png" />
+    <Content Include="NewTemp\images\icons\flags\finland.png" />
+    <Content Include="NewTemp\images\icons\flags\france.png" />
+    <Content Include="NewTemp\images\icons\flags\georgia.png" />
+    <Content Include="NewTemp\images\icons\flags\germany.png" />
+    <Content Include="NewTemp\images\icons\flags\ghana.png" />
+    <Content Include="NewTemp\images\icons\flags\greece.png" />
+    <Content Include="NewTemp\images\icons\flags\guyana.png" />
+    <Content Include="NewTemp\images\icons\flags\hungary.png" />
+    <Content Include="NewTemp\images\icons\flags\iceland.png" />
+    <Content Include="NewTemp\images\icons\flags\india.png" />
+    <Content Include="NewTemp\images\icons\flags\indonesia.png" />
+    <Content Include="NewTemp\images\icons\flags\iran.png" />
+    <Content Include="NewTemp\images\icons\flags\israel.png" />
+    <Content Include="NewTemp\images\icons\flags\italy.png" />
+    <Content Include="NewTemp\images\icons\flags\jamaica.png" />
+    <Content Include="NewTemp\images\icons\flags\japan.png" />
+    <Content Include="NewTemp\images\icons\flags\kazakhstan.png" />
+    <Content Include="NewTemp\images\icons\flags\kenya.png" />
+    <Content Include="NewTemp\images\icons\flags\kosovo.png" />
+    <Content Include="NewTemp\images\icons\flags\kuwait.png" />
+    <Content Include="NewTemp\images\icons\flags\kyrgyzstan.png" />
+    <Content Include="NewTemp\images\icons\flags\laos.png" />
+    <Content Include="NewTemp\images\icons\flags\latvia.png" />
+    <Content Include="NewTemp\images\icons\flags\lebanon.png" />
+    <Content Include="NewTemp\images\icons\flags\lesotho.png" />
+    <Content Include="NewTemp\images\icons\flags\liberia.png" />
+    <Content Include="NewTemp\images\icons\flags\libya.png" />
+    <Content Include="NewTemp\images\icons\flags\lithuania.png" />
+    <Content Include="NewTemp\images\icons\flags\luxembourg.png" />
+    <Content Include="NewTemp\images\icons\flags\malaysia.png" />
+    <Content Include="NewTemp\images\icons\flags\mali.png" />
+    <Content Include="NewTemp\images\icons\flags\moldova.png" />
+    <Content Include="NewTemp\images\icons\flags\mongolia.png" />
+    <Content Include="NewTemp\images\icons\flags\montenegro.png" />
+    <Content Include="NewTemp\images\icons\flags\morocco.png" />
+    <Content Include="NewTemp\images\icons\flags\nepal.png" />
+    <Content Include="NewTemp\images\icons\flags\netherlands.png" />
+    <Content Include="NewTemp\images\icons\flags\north-korea.png" />
+    <Content Include="NewTemp\images\icons\flags\norway.png" />
+    <Content Include="NewTemp\images\icons\flags\pakistan.png" />
+    <Content Include="NewTemp\images\icons\flags\panama.png" />
+    <Content Include="NewTemp\images\icons\flags\paraguay.png" />
+    <Content Include="NewTemp\images\icons\flags\peru.png" />
+    <Content Include="NewTemp\images\icons\flags\philippines.png" />
+    <Content Include="NewTemp\images\icons\flags\portugal.png" />
+    <Content Include="NewTemp\images\icons\flags\qatar.png" />
+    <Content Include="NewTemp\images\icons\flags\republic-of-macedonia.png" />
+    <Content Include="NewTemp\images\icons\flags\republic-of-poland.png" />
+    <Content Include="NewTemp\images\icons\flags\romania.png" />
+    <Content Include="NewTemp\images\icons\flags\russia.png" />
+    <Content Include="NewTemp\images\icons\flags\salvador.png" />
+    <Content Include="NewTemp\images\icons\flags\saudi-arabia.png" />
+    <Content Include="NewTemp\images\icons\flags\senegal.png" />
+    <Content Include="NewTemp\images\icons\flags\serbia.png" />
+    <Content Include="NewTemp\images\icons\flags\singapore.png" />
+    <Content Include="NewTemp\images\icons\flags\slovakia.png" />
+    <Content Include="NewTemp\images\icons\flags\slovenia.png" />
+    <Content Include="NewTemp\images\icons\flags\south-korea.png" />
+    <Content Include="NewTemp\images\icons\flags\spain.png" />
+    <Content Include="NewTemp\images\icons\flags\sweden.png" />
+    <Content Include="NewTemp\images\icons\flags\switzerland.png" />
+    <Content Include="NewTemp\images\icons\flags\tajikistan.png" />
+    <Content Include="NewTemp\images\icons\flags\thailand.png" />
+    <Content Include="NewTemp\images\icons\flags\tibet.png" />
+    <Content Include="NewTemp\images\icons\flags\togo.png" />
+    <Content Include="NewTemp\images\icons\flags\tokelau.png" />
+    <Content Include="NewTemp\images\icons\flags\tonga.png" />
+    <Content Include="NewTemp\images\icons\flags\transnistria.png" />
+    <Content Include="NewTemp\images\icons\flags\trinidad-and-tobago.png" />
+    <Content Include="NewTemp\images\icons\flags\tunisia.png" />
+    <Content Include="NewTemp\images\icons\flags\turkey.png" />
+    <Content Include="NewTemp\images\icons\flags\turkmenistan.png" />
+    <Content Include="NewTemp\images\icons\flags\uk.png" />
+    <Content Include="NewTemp\images\icons\flags\ukraine.png" />
+    <Content Include="NewTemp\images\icons\flags\united-arab-emirates.png" />
+    <Content Include="NewTemp\images\icons\flags\uruguay.png" />
+    <Content Include="NewTemp\images\icons\flags\usa.png" />
+    <Content Include="NewTemp\images\icons\flags\uzbekistn.png" />
+    <Content Include="NewTemp\images\icons\flags\venezuela.png" />
+    <Content Include="NewTemp\images\icons\flags\vietnam.png" />
+    <Content Include="NewTemp\images\icons\flask-1.png" />
+    <Content Include="NewTemp\images\icons\flask-2.png" />
+    <Content Include="NewTemp\images\icons\flask.png" />
+    <Content Include="NewTemp\images\icons\floppy.png" />
+    <Content Include="NewTemp\images\icons\folder.png" />
+    <Content Include="NewTemp\images\icons\geography.png" />
+    <Content Include="NewTemp\images\icons\globe.png" />
+    <Content Include="NewTemp\images\icons\gps.png" />
+    <Content Include="NewTemp\images\icons\grade-1.png" />
+    <Content Include="NewTemp\images\icons\grade.png" />
+    <Content Include="NewTemp\images\icons\grades.png" />
+    <Content Include="NewTemp\images\icons\graphic-design-1.png" />
+    <Content Include="NewTemp\images\icons\graphic.png" />
+    <Content Include="NewTemp\images\icons\headphone.png" />
+    <Content Include="NewTemp\images\icons\headphones.png" />
+    <Content Include="NewTemp\images\icons\hierarchical-structure.png" />
+    <Content Include="NewTemp\images\icons\homework.png" />
+    <Content Include="NewTemp\images\icons\html.png" />
+    <Content Include="NewTemp\images\icons\idea.png" />
+    <Content Include="NewTemp\images\icons\information.png" />
+    <Content Include="NewTemp\images\icons\innovation.png" />
+    <Content Include="NewTemp\images\icons\international.png" />
+    <Content Include="NewTemp\images\icons\internet.png" />
+    <Content Include="NewTemp\images\icons\key.png" />
+    <Content Include="NewTemp\images\icons\knowledge-1.png" />
+    <Content Include="NewTemp\images\icons\knowledge.png" />
+    <Content Include="NewTemp\images\icons\lab.png" />
+    <Content Include="NewTemp\images\icons\lamp.png" />
+    <Content Include="NewTemp\images\icons\lesson.png" />
+    <Content Include="NewTemp\images\icons\machine.png" />
+    <Content Include="NewTemp\images\icons\marketing.png" />
+    <Content Include="NewTemp\images\icons\math.png" />
+    <Content Include="NewTemp\images\icons\microchip.png" />
+    <Content Include="NewTemp\images\icons\money.png" />
+    <Content Include="NewTemp\images\icons\mouse-1.png" />
+    <Content Include="NewTemp\images\icons\mouse.png" />
+    <Content Include="NewTemp\images\icons\network-1.png" />
+    <Content Include="NewTemp\images\icons\network.png" />
+    <Content Include="NewTemp\images\icons\notepad.png" />
+    <Content Include="NewTemp\images\icons\online-payment.png" />
+    <Content Include="NewTemp\images\icons\package.png" />
+    <Content Include="NewTemp\images\icons\palette-1.png" />
+    <Content Include="NewTemp\images\icons\palette.png" />
+    <Content Include="NewTemp\images\icons\pantone.png" />
+    <Content Include="NewTemp\images\icons\paper.png" />
+    <Content Include="NewTemp\images\icons\pendrive-1.png" />
+    <Content Include="NewTemp\images\icons\personal-computer.png" />
+    <Content Include="NewTemp\images\icons\photo.png" />
+    <Content Include="NewTemp\images\icons\piano.png" />
+    <Content Include="NewTemp\images\icons\piggy-bank.png" />
+    <Content Include="NewTemp\images\icons\pin.png" />
+    <Content Include="NewTemp\images\icons\presentation-1.png" />
+    <Content Include="NewTemp\images\icons\presentation.png" />
+    <Content Include="NewTemp\images\icons\reaction.png" />
+    <Content Include="NewTemp\images\icons\reading.png" />
+    <Content Include="NewTemp\images\icons\request.png" />
+    <Content Include="NewTemp\images\icons\responsive.png" />
+    <Content Include="NewTemp\images\icons\reward.png" />
+    <Content Include="NewTemp\images\icons\school-1.png" />
+    <Content Include="NewTemp\images\icons\school.png" />
+    <Content Include="NewTemp\images\icons\search.png" />
+    <Content Include="NewTemp\images\icons\server.png" />
+    <Content Include="NewTemp\images\icons\settings-1.png" />
+    <Content Include="NewTemp\images\icons\smartphone.png" />
+    <Content Include="NewTemp\images\icons\stats.png" />
+    <Content Include="NewTemp\images\icons\strategy.png" />
+    <Content Include="NewTemp\images\icons\success-1.png" />
+    <Content Include="NewTemp\images\icons\success.png" />
+    <Content Include="NewTemp\images\icons\tech.png" />
+    <Content Include="NewTemp\images\icons\technology.png" />
+    <Content Include="NewTemp\images\icons\test-tubes.png" />
+    <Content Include="NewTemp\images\icons\think.png" />
+    <Content Include="NewTemp\images\icons\to-do.png" />
+    <Content Include="NewTemp\images\icons\tools.png" />
+    <Content Include="NewTemp\images\icons\trophy.png" />
+    <Content Include="NewTemp\images\icons\tutorial-1.png" />
+    <Content Include="NewTemp\images\icons\tutorial-2.png" />
+    <Content Include="NewTemp\images\icons\tutorial.png" />
+    <Content Include="NewTemp\images\icons\vector-1.png" />
+    <Content Include="NewTemp\images\icons\vector-2.png" />
+    <Content Include="NewTemp\images\icons\vector.png" />
+    <Content Include="NewTemp\images\icons\web.png" />
+    <Content Include="NewTemp\images\icons\workspace-1.png" />
+    <Content Include="NewTemp\images\icons\workspace.png" />
+    <Content Include="NewTemp\images\icons\world-map.png" />
+    <Content Include="NewTemp\images\icons\worldwide.png" />
+    <Content Include="NewTemp\images\image-01.png" />
+    <Content Include="NewTemp\images\image-02.png" />
+    <Content Include="NewTemp\images\image-03.jpg" />
+    <Content Include="NewTemp\images\image-04.png" />
+    <Content Include="NewTemp\images\image-05.png" />
+    <Content Include="NewTemp\images\left-quote.png" />
+    <Content Include="NewTemp\images\logo-white.png" />
+    <Content Include="NewTemp\images\logo.png" />
+    <Content Include="NewTemp\images\newsletter.jpg" />
+    <Content Include="NewTemp\images\next.png" />
+    <Content Include="NewTemp\images\post-author-1.jpg" />
+    <Content Include="NewTemp\images\post-author-2.jpg" />
+    <Content Include="NewTemp\images\post-author-3.jpg" />
+    <Content Include="NewTemp\images\post-author-4.jpg" />
+    <Content Include="NewTemp\images\prev.png" />
+    <Content Include="NewTemp\images\review-author-1.jpg" />
+    <Content Include="NewTemp\images\review-author-2.jpg" />
+    <Content Include="NewTemp\images\review-author-3.jpg" />
+    <Content Include="NewTemp\images\review-author-4.jpg" />
+    <Content Include="NewTemp\images\review-author-5.jpg" />
+    <Content Include="NewTemp\images\review-author-6.jpg" />
+    <Content Include="NewTemp\images\review-author-7.jpg" />
+    <Content Include="NewTemp\images\review-author-8.jpg" />
+    <Content Include="NewTemp\images\slider\slide-1.jpg" />
+    <Content Include="NewTemp\images\slider\slide-2.jpg" />
+    <Content Include="NewTemp\images\slider\slide-3.jpg" />
+    <Content Include="NewTemp\images\slider\slide-4.jpg" />
+    <Content Include="NewTemp\images\slider\slide-5.jpg" />
+    <Content Include="NewTemp\images\slider\slide-6.jpg" />
+    <Content Include="NewTemp\images\slider\slide-7.jpg" />
+    <Content Include="NewTemp\images\team-1.jpg" />
+    <Content Include="NewTemp\images\team-10.jpg" />
+    <Content Include="NewTemp\images\team-11.jpg" />
+    <Content Include="NewTemp\images\team-12.jpg" />
+    <Content Include="NewTemp\images\team-13.jpg" />
+    <Content Include="NewTemp\images\team-2.jpg" />
+    <Content Include="NewTemp\images\team-3.jpg" />
+    <Content Include="NewTemp\images\team-4.jpg" />
+    <Content Include="NewTemp\images\team-5.jpg" />
+    <Content Include="NewTemp\images\team-6.jpg" />
+    <Content Include="NewTemp\images\team-7.jpg" />
+    <Content Include="NewTemp\images\team-8.jpg" />
+    <Content Include="NewTemp\images\team-9.jpg" />
+    <Content Include="NewTemp\images\video-1-img.jpg" />
+    <Content Include="NewTemp\images\video-2.jpg" />
+    <Content Include="NewTemp\images\video-3-img.jpg" />
+    <Content Include="NewTemp\images\video-3.jpg" />
+    <Content Include="NewTemp\js\bootstrap.min.js" />
+    <Content Include="NewTemp\js\comment-form.js" />
+    <Content Include="NewTemp\js\custom.js" />
+    <Content Include="NewTemp\js\html5shiv.js" />
+    <Content Include="NewTemp\js\imagesloaded.pkgd.min.js" />
+    <Content Include="NewTemp\js\isotope.pkgd.min.js" />
+    <Content Include="NewTemp\js\jquery-3.3.1.min.js" />
+    <Content Include="NewTemp\js\jquery.ajaxchimp.min.js" />
+    <Content Include="NewTemp\js\jquery.appear.js" />
+    <Content Include="NewTemp\js\jquery.countdown.min.js" />
+    <Content Include="NewTemp\js\jquery.easing.js" />
+    <Content Include="NewTemp\js\jquery.flexslider.js" />
+    <Content Include="NewTemp\js\jquery.magnific-popup.min.js" />
+    <Content Include="NewTemp\js\jquery.scrollto.js" />
+    <Content Include="NewTemp\js\jquery.validate.min.js" />
+    <Content Include="NewTemp\js\materialize.js" />
+    <Content Include="NewTemp\js\menu.js" />
+    <Content Include="NewTemp\js\modernizr.custom.js" />
+    <Content Include="NewTemp\js\owl.carousel.min.js" />
+    <Content Include="NewTemp\js\register-form.js" />
+    <Content Include="NewTemp\js\respond.min.js" />
+    <Content Include="Scripts\bootstrap.bundle.js" />
+    <Content Include="Scripts\bootstrap.bundle.min.js" />
+    <Content Include="Scripts\bootstrap.esm.js" />
+    <Content Include="Scripts\bootstrap.esm.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\formsrc.js" />
+    <Content Include="Userfile\responsive.css" />
+    <Content Include="Userfile\style.css" />
+    <Content Include="Userp\css\animate.min.css" />
+    <Content Include="Userp\css\bootstrap.min.css" />
+    <Content Include="Userp\css\flaticon.css" />
+    <Content Include="Userp\css\flexslider.css" />
+    <Content Include="Userp\css\jquery-ui.css" />
+    <Content Include="Userp\css\jquery.mCustomScrollbar.min.css" />
+    <Content Include="Userp\css\meanmenu.css" />
+    <Content Include="Userp\css\menu.css" />
+    <Content Include="Userp\css\nice-select.css" />
+    <Content Include="Userp\css\normalize.css" />
+    <Content Include="Userp\css\owl.carousel.min.css" />
+    <Content Include="Userp\css\owl.theme.default.min.css" />
+    <Content Include="Userp\css\responsive.css" />
+    <Content Include="Userp\css\slick.css" />
+    <Content Include="Userp\css\style.css" />
+    <Content Include="Userp\icon\call.png" />
+    <Content Include="Userp\icon\email.png" />
+    <Content Include="Userp\icon\fb.png" />
+    <Content Include="Userp\icon\instagram.png" />
+    <Content Include="Userp\icon\lin%282%29.png" />
+    <Content Include="Userp\icon\loc.png" />
+    <Content Include="Userp\icon\tw.png" />
+    <Content Include="Userp\images\abc-1.png" />
+    <Content Include="Userp\images\about.jpg" />
+    <Content Include="Userp\images\banner2.jpg" />
+    <Content Include="Userp\images\browser-3.png" />
+    <Content Include="Userp\images\calculator-1.png" />
+    <Content Include="Userp\images\calculator.png" />
+    <Content Include="Userp\images\cash.png" />
+    <Content Include="Userp\images\chip.png" />
+    <Content Include="Userp\images\design.png" />
+    <Content Include="Userp\images\development.png" />
+    <Content Include="Userp\images\education.png" />
+    <Content Include="Userp\images\encyclopedia.png" />
+    <Content Include="Userp\images\finance.png" />
+    <Content Include="Userp\images\gear.png" />
+    <Content Include="Userp\images\headphone.png" />
+    <Content Include="Userp\images\heartbeat.png" />
+    <Content Include="Userp\images\human-mind.png" />
+    <Content Include="Userp\images\image-02.png" />
+    <Content Include="Userp\images\image-03.jpg" />
+    <Content Include="Userp\images\img.jpg" />
+    <Content Include="Userp\images\img2.png" />
+    <Content Include="Userp\images\lab.png" />
+    <Content Include="Userp\images\loading.gif" />
+    <Content Include="Userp\images\logo.png" />
+    <Content Include="Userp\images\logo1.jpg" />
+    <Content Include="Userp\images\make_img.jpg" />
+    <Content Include="Userp\images\marketing.png" />
+    <Content Include="Userp\images\microchip.png" />
+    <Content Include="Userp\images\money.png" />
+    <Content Include="Userp\images\my1.jpg" />
+    <Content Include="Userp\images\my2.jpg" />
+    <Content Include="Userp\images\my3.jpg" />
+    <Content Include="Userp\images\my4.jpg" />
+    <Content Include="Userp\images\network.png" />
+    <Content Include="Userp\images\palette.png" />
+    <Content Include="Userp\images\paper.png" />
+    <Content Include="Userp\images\photo.png" />
+    <Content Include="Userp\images\piggy-bank.png" />
+    <Content Include="Userp\images\school-1.png" />
+    <Content Include="Userp\images\science.png" />
+    <Content Include="Userp\images\search_icon.png" />
+    <Content Include="Userp\images\settings-1.png" />
+    <Content Include="Userp\images\software.png" />
+    <Content Include="Userp\images\target.png" />
+    <Content Include="Userp\images\top_arrow.png" />
+    <Content Include="Userp\images\top_arrow1.png" />
+    <Content Include="Userp\images\top_arrow2.png" />
+    <Content Include="Userp\images\translation.png" />
+    <Content Include="Userp\images\trophy.png" />
+    <Content Include="Userp\js\bootstrap.bundle.min.js" />
+    <Content Include="Userp\js\custom.js" />
+    <Content Include="Userp\js\jquery-3.0.0.min.js" />
+    <Content Include="Userp\js\jquery.mCustomScrollbar.concat.min.js" />
+    <Content Include="Userp\js\jquery.min.js" />
+    <Content Include="Userp\js\jquery.validate.js" />
+    <Content Include="Userp\js\plugin.js" />
+    <Content Include="Userp\js\popper.min.js" />
+    <Content Include="Userstyle\100.jpg" />
+    <Content Include="Userstyle\1002.jpg" />
+    <Content Include="Userstyle\andrea-buccelli-AqFetkKjCC8-unsplash-removebg-preview.png" />
+    <Content Include="Userstyle\css\animate.min.css" />
+    <Content Include="Userstyle\css\bootstrap.min.css" />
+    <Content Include="Userstyle\css\flaticon.css" />
+    <Content Include="Userstyle\css\flexslider.css" />
+    <Content Include="Userstyle\css\jquery-ui.css" />
+    <Content Include="Userstyle\css\jquery.mCustomScrollbar.min.css" />
+    <Content Include="Userstyle\css\meanmenu.css" />
+    <Content Include="Userstyle\css\menu.css" />
+    <Content Include="Userstyle\css\nice-select.css" />
+    <Content Include="Userstyle\css\normalize.css" />
+    <Content Include="Userstyle\css\owl.carousel.min.css" />
+    <Content Include="Userstyle\css\owl.theme.default.min.css" />
+    <Content Include="Userstyle\css\responsive.css" />
+    <Content Include="Userstyle\css\slick.css" />
+    <Content Include="Userstyle\css\style.css" />
+    <Content Include="Userstyle\favicon.png" />
+    <Content Include="Userstyle\icon\call.png" />
+    <Content Include="Userstyle\icon\email.png" />
+    <Content Include="Userstyle\icon\fb.png" />
+    <Content Include="Userstyle\icon\instagram.png" />
+    <Content Include="Userstyle\icon\lin%282%29.png" />
+    <Content Include="Userstyle\icon\loc.png" />
+    <Content Include="Userstyle\icon\tw.png" />
+    <Content Include="Userstyle\images\abc-1.png" />
+    <Content Include="Userstyle\images\about.jpg" />
+    <Content Include="Userstyle\images\b.jpg" />
+    <Content Include="Userstyle\images\banner2.jpg" />
+    <Content Include="Userstyle\images\browser-3.png" />
+    <Content Include="Userstyle\images\c.jpg" />
+    <Content Include="Userstyle\images\calculator-1.png" />
+    <Content Include="Userstyle\images\calculator.png" />
+    <Content Include="Userstyle\images\cash.png" />
+    <Content Include="Userstyle\images\chip.png" />
+    <Content Include="Userstyle\images\design.png" />
+    <Content Include="Userstyle\images\development.png" />
+    <Content Include="Userstyle\images\education.png" />
+    <Content Include="Userstyle\images\encyclopedia.png" />
+    <Content Include="Userstyle\images\finance.png" />
+    <Content Include="Userstyle\images\gear.png" />
+    <Content Include="Userstyle\images\headphone.png" />
+    <Content Include="Userstyle\images\heartbeat.png" />
+    <Content Include="Userstyle\images\human-mind.png" />
+    <Content Include="Userstyle\images\image-01.png" />
+    <Content Include="Userstyle\images\image-02.png" />
+    <Content Include="Userstyle\images\image-03.jpg" />
+    <Content Include="Userstyle\images\img.jpg" />
+    <Content Include="Userstyle\images\img2.png" />
+    <Content Include="Userstyle\images\lab.png" />
+    <Content Include="Userstyle\images\loading.gif" />
+    <Content Include="Userstyle\images\logo.png" />
+    <Content Include="Userstyle\images\logo1.jpg" />
+    <Content Include="Userstyle\images\make_img.jpg" />
+    <Content Include="Userstyle\images\marketing.png" />
+    <Content Include="Userstyle\images\microchip.png" />
+    <Content Include="Userstyle\images\money.png" />
+    <Content Include="Userstyle\images\my1.jpg" />
+    <Content Include="Userstyle\images\my2.jpg" />
+    <Content Include="Userstyle\images\my3.jpg" />
+    <Content Include="Userstyle\images\my4.jpg" />
+    <Content Include="Userstyle\images\network.png" />
+    <Content Include="Userstyle\images\palette.png" />
+    <Content Include="Userstyle\images\paper.png" />
+    <Content Include="Userstyle\images\photo.png" />
+    <Content Include="Userstyle\images\piggy-bank.png" />
+    <Content Include="Userstyle\images\school-1.png" />
+    <Content Include="Userstyle\images\science.png" />
+    <Content Include="Userstyle\images\search_icon.png" />
+    <Content Include="Userstyle\images\settings-1.png" />
+    <Content Include="Userstyle\images\software.png" />
+    <Content Include="Userstyle\images\target.png" />
+    <Content Include="Userstyle\images\Temp-500x620 %281%29.jpg" />
+    <Content Include="Userstyle\images\Temp-500x620 %282%29.jpg" />
+    <Content Include="Userstyle\images\Temp-500x620 %283%29.jpg" />
+    <Content Include="Userstyle\images\Temp-500x620.jpg" />
+    <Content Include="Userstyle\images\top_arrow.png" />
+    <Content Include="Userstyle\images\top_arrow1.png" />
+    <Content Include="Userstyle\images\top_arrow2.png" />
+    <Content Include="Userstyle\images\translation.png" />
+    <Content Include="Userstyle\images\trophy.png" />
+    <Content Include="Userstyle\js\bootstrap.bundle.min.js" />
+    <Content Include="Userstyle\js\custom.js" />
+    <Content Include="Userstyle\js\jquery-3.0.0.min.js" />
+    <Content Include="Userstyle\js\jquery.mCustomScrollbar.concat.min.js" />
+    <Content Include="Userstyle\js\jquery.min.js" />
+    <Content Include="Userstyle\js\jquery.validate.js" />
+    <Content Include="Userstyle\js\plugin.js" />
+    <Content Include="Userstyle\js\popper.min.js" />
+    <Content Include="Userstyle\LA1.png" />
+    <Content Include="Userstyle\LO1.png" />
+    <Content Include="Userstyle\p1.png" />
+    <Content Include="Userstyle\p2.png" />
+    <Content Include="Userstyle\p3.png" />
+    <Content Include="Userstyle\p4.png" />
+    <Content Include="Userstyle\p5.png" />
+    <Content Include="Userstyle\pexels-michael-burrows-7129700-removebg-preview.png" />
+    <Content Include="Userstyle\photo-1523050854058-8df90110c9f1.png" />
+    <Content Include="Userstyle\S.png" />
+    <Content Include="Userstyle\sl3.png" />
+    <Content Include="Userstyle\sl4.png" />
+    <Content Include="Userstyle\sli1.png" />
+    <Content Include="Userstyle\sli2.png" />
+    <Content Include="Userstyle\st2.jpg" />
+    <Content Include="Userstyle\Untitled-1.png" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\AssingmentsController.cs" />
+    <Compile Include="Controllers\as_submitController.cs" />
+    <Compile Include="Controllers\batchesController.cs" />
+    <Compile Include="Controllers\examsController.cs" />
+    <Compile Include="Controllers\exam_resultController.cs" />
+    <Compile Include="Controllers\noticesController.cs" />
+    <Compile Include="Controllers\parent_infoController.cs" />
+    <Compile Include="Controllers\std_addController.cs" />
+    <Compile Include="Controllers\std_courseController.cs" />
+    <Compile Include="Controllers\std_infoController.cs" />
+    <Compile Include="Controllers\std_matController.cs" />
+    <Compile Include="Controllers\StudentController.cs" />
+    <Compile Include="Controllers\st_feesController.cs" />
+    <Compile Include="Controllers\st_subjController.cs" />
+    <Compile Include="Controllers\teacher_batchController.cs" />
+    <Compile Include="Controllers\teacher_infoController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Assingment.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\as_submit.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\batch.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\exam.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\exam_result.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Model1.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Model1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Model1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\notice.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\parent_info.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\std_add.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\std_course.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\std_info.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\std_mat.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\st_fees.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\st_subj.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\teacher_batch.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\teacher_info.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="ViewModel\StudentViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\web.config" />
+    <Content Include="Admin\data\addresses.json" />
+    <Content Include="Admin\data\countries.json" />
+    <Content Include="Admin\fonts\dark-dashboard.eot" />
+    <Content Include="Admin\fonts\dark-dashboard.ttf" />
+    <Content Include="Admin\fonts\dark-dashboard.woff" />
+    <Content Include="Admin\icons-reference\fonts\dark-dashboard.eot" />
+    <Content Include="Admin\icons-reference\fonts\dark-dashboard.ttf" />
+    <Content Include="Admin\icons-reference\fonts\dark-dashboard.woff" />
+    <Content Include="Admin\vendor\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="Admin\vendor\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Admin\vendor\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="Admin\vendor\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Admin\vendor\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="Admin\vendor\jquery.cookie\component.json" />
+    <Content Include="Admin\vendor\jquery.cookie\cookie.jquery.json" />
+    <Content Include="Content\bootstrap.rtl.min.css.map" />
+    <Content Include="Content\bootstrap.rtl.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.css.map" />
+    <Content Include="Content\bootstrap-utilities.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.css.map" />
+    <Content Include="Content\bootstrap-reboot.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.css.map" />
+    <Content Include="Content\bootstrap-grid.min.css.map" />
+    <Content Include="Content\bootstrap-grid.css.map" />
+    <EntityDeploy Include="Models\Model1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\Model1.edmx.diagram">
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Content>
+    <Content Include="index style\font-awesome.scss" />
+    <Content Include="NewTemp\css\.DS_Store" />
+    <Content Include="NewTemp\images\.DS_Store" />
+    <Content Include="NewTemp\images\blog\.DS_Store" />
+    <Content Include="NewTemp\images\courses\.DS_Store" />
+    <Content Include="NewTemp\images\icons\.DS_Store" />
+    <Content Include="NewTemp\images\icons\categories\.DS_Store" />
+    <Content Include="NewTemp\images\icons\flags\.DS_Store" />
+    <Content Include="NewTemp\images\slider\.DS_Store" />
+    <Content Include="NewTemp\js\.DS_Store" />
+    <None Include="packages.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\layoutadmin.cshtml" />
+    <Content Include="Views\Admin\myadmin.cshtml" />
+    <Content Include="Views\Admin\admin_dash.cshtml" />
+    <Content Include="Views\batches\Create.cshtml" />
+    <Content Include="Views\batches\Delete.cshtml" />
+    <Content Include="Views\batches\Details.cshtml" />
+    <Content Include="Views\batches\Edit.cshtml" />
+    <Content Include="Views\batches\Index.cshtml" />
+    <Content Include="Views\teacher_info\Create.cshtml" />
+    <Content Include="Views\teacher_info\Delete.cshtml" />
+    <Content Include="Views\teacher_info\Details.cshtml" />
+    <Content Include="Views\teacher_info\Edit.cshtml" />
+    <Content Include="Views\teacher_info\Index.cshtml" />
+    <Content Include="Views\teacher_batch\Create.cshtml" />
+    <Content Include="Views\teacher_batch\Delete.cshtml" />
+    <Content Include="Views\teacher_batch\Details.cshtml" />
+    <Content Include="Views\teacher_batch\Edit.cshtml" />
+    <Content Include="Views\teacher_batch\Index.cshtml" />
+    <Content Include="Scripts\bootstrap.min.js.map" />
+    <Content Include="Scripts\bootstrap.js.map" />
+    <Content Include="Scripts\bootstrap.esm.min.js.map" />
+    <Content Include="Scripts\bootstrap.esm.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.min.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.js.map" />
+    <Content Include="Views\Home\login.cshtml" />
+    <Content Include="Views\User\Index.cshtml" />
+    <Content Include="Views\Student\Index.cshtml" />
+    <Content Include="Views\std_info\Create.cshtml" />
+    <Content Include="Views\std_info\Delete.cshtml" />
+    <Content Include="Views\std_info\Details.cshtml" />
+    <Content Include="Views\std_info\Edit.cshtml" />
+    <Content Include="Views\std_info\Index.cshtml" />
+    <Content Include="Views\std_add\Create.cshtml" />
+    <Content Include="Views\std_add\Delete.cshtml" />
+    <Content Include="Views\std_add\Details.cshtml" />
+    <Content Include="Views\std_add\Edit.cshtml" />
+    <Content Include="Views\std_add\Index.cshtml" />
+    <Content Include="Views\parent_info\Create.cshtml" />
+    <Content Include="Views\parent_info\Delete.cshtml" />
+    <Content Include="Views\parent_info\Details.cshtml" />
+    <Content Include="Views\parent_info\Edit.cshtml" />
+    <Content Include="Views\parent_info\Index.cshtml" />
+    <Content Include="Views\std_course\Create.cshtml" />
+    <Content Include="Views\std_course\Delete.cshtml" />
+    <Content Include="Views\std_course\Details.cshtml" />
+    <Content Include="Views\std_course\Edit.cshtml" />
+    <Content Include="Views\std_course\Index.cshtml" />
+    <Content Include="Views\st_fees\Create.cshtml" />
+    <Content Include="Views\st_fees\Delete.cshtml" />
+    <Content Include="Views\st_fees\Details.cshtml" />
+    <Content Include="Views\st_fees\Edit.cshtml" />
+    <Content Include="Views\st_fees\Index.cshtml" />
+    <Content Include="Views\st_subj\Create.cshtml" />
+    <Content Include="Views\st_subj\Delete.cshtml" />
+    <Content Include="Views\st_subj\Details.cshtml" />
+    <Content Include="Views\st_subj\Edit.cshtml" />
+    <Content Include="Views\st_subj\Index.cshtml" />
+    <Content Include="Views\std_mat\Create.cshtml" />
+    <Content Include="Views\std_mat\Delete.cshtml" />
+    <Content Include="Views\std_mat\Details.cshtml" />
+    <Content Include="Views\std_mat\Edit.cshtml" />
+    <Content Include="Views\std_mat\Index.cshtml" />
+    <Content Include="Views\exams\Create.cshtml" />
+    <Content Include="Views\exams\Delete.cshtml" />
+    <Content Include="Views\exams\Details.cshtml" />
+    <Content Include="Views\exams\Edit.cshtml" />
+    <Content Include="Views\exams\Index.cshtml" />
+    <Content Include="Views\Assingments\Create.cshtml" />
+    <Content Include="Views\Assingments\Delete.cshtml" />
+    <Content Include="Views\Assingments\Details.cshtml" />
+    <Content Include="Views\Assingments\Edit.cshtml" />
+    <Content Include="Views\Assingments\Index.cshtml" />
+    <Content Include="Views\exam_result\Create.cshtml" />
+    <Content Include="Views\exam_result\Delete.cshtml" />
+    <Content Include="Views\exam_result\Details.cshtml" />
+    <Content Include="Views\exam_result\Edit.cshtml" />
+    <Content Include="Views\exam_result\Index.cshtml" />
+    <Content Include="Views\as_submit\Create.cshtml" />
+    <Content Include="Views\as_submit\Delete.cshtml" />
+    <Content Include="Views\as_submit\Details.cshtml" />
+    <Content Include="Views\as_submit\Edit.cshtml" />
+    <Content Include="Views\as_submit\Index.cshtml" />
+    <Content Include="Views\notices\Create.cshtml" />
+    <Content Include="Views\notices\Delete.cshtml" />
+    <Content Include="Views\notices\Details.cshtml" />
+    <Content Include="Views\notices\Edit.cshtml" />
+    <Content Include="Views\notices\Index.cshtml" />
+    <Content Include="Views\User\Course.cshtml" />
+    <Content Include="Views\User\contact.cshtml" />
+    <Content Include="Views\User\About.cshtml" />
+    <Content Include="Views\Admin\madmin.cshtml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="admAssingments\" />
+    <Folder Include="Admin\vendor\font-awesome\less\" />
+    <Folder Include="Admin\vendor\font-awesome\scss\" />
+    <Folder Include="courseimg\" />
+    <Folder Include="stdassing\" />
+    <Folder Include="StudyM\" />
+    <Folder Include="Uploads\" />
+    <Folder Include="Views\H\" />
+    <Folder Include="Views\StudentAssing\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>64761</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44381/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

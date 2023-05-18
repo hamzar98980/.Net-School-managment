@@ -1,0 +1,51 @@
+﻿@model managment.Models.notice
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/layoutadmin.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>notice</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.n_title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.n_title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.n_date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.n_date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.n_desc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.n_desc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.batch.b_code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.batch.b_code)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.n_id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="bf2ee7c9773d460eb099c4cde7180b4b" Name="Diagram1">
+        <EntityTypeShape EntityType="schoolmanageModel.batch" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="schoolmanageModel.parent_info" Width="1.5" PointX="5.25" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="schoolmanageModel.std_add" Width="1.5" PointX="5.25" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="schoolmanageModel.std_info" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="schoolmanageModel.teacher_batch" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="schoolmanageModel.teacher_info" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <AssociationConnector Association="schoolmanageModel.FK__std_info__s_batc__36B12243" ManuallyRouted="false" />
+        <AssociationConnector Association="schoolmanageModel.FK__teacher_b__bt_id__60A75C0F" ManuallyRouted="false" />
+        <AssociationConnector Association="schoolmanageModel.FK__parent_inf__s_id__01142BA1" ManuallyRouted="false" />
+        <AssociationConnector Association="schoolmanageModel.FK__std_add__s_id__6FE99F9F" ManuallyRouted="false" />
+        <AssociationConnector Association="schoolmanageModel.FK__teacher_b__tb_id__619B8048" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="schoolmanageModel.std_course" Width="1.5" PointX="7.375" PointY="0.75" />
+        <EntityTypeShape EntityType="schoolmanageModel.st_fees" Width="1.5" PointX="5.25" PointY="9.75" />
+        <AssociationConnector Association="schoolmanageModel.FK__st_fees__s_id__634EBE90" />
+        <EntityTypeShape EntityType="schoolmanageModel.st_subj" Width="1.5" PointX="5.75" PointY="13.125" />
+        <EntityTypeShape EntityType="schoolmanageModel.std_mat" Width="1.5" PointX="8" PointY="4.75" />
+        <AssociationConnector Association="schoolmanageModel.FK__std_mat__sm_batc__0A688BB1" />
+        <AssociationConnector Association="schoolmanageModel.FK__std_mat__sm_subj__0B5CAFEA" />
+        <EntityTypeShape EntityType="schoolmanageModel.exam" Width="1.5" PointX="8" PointY="8.625" />
+        <AssociationConnector Association="schoolmanageModel.FK__exam__e_batch__1C873BEC" />
+        <AssociationConnector Association="schoolmanageModel.FK__exam__e_subj__1B9317B3" />
+        <EntityTypeShape EntityType="schoolmanageModel.exam_result" Width="1.5" PointX="10.25" PointY="6.375" />
+        <AssociationConnector Association="schoolmanageModel.FK__exam_resu__en_id__43A1090D" />
+        <AssociationConnector Association="schoolmanageModel.FK__exam_resu__et_id__42ACE4D4" />
+        <AssociationConnector Association="schoolmanageModel.FK__exam_resul__s_id__41B8C09B" />
+        <EntityTypeShape EntityType="schoolmanageModel.as_submit" Width="1.5" PointX="10.25" PointY="2.875" />
+        <EntityTypeShape EntityType="schoolmanageModel.Assingment" Width="1.5" PointX="11" PointY="10.625" />
+        <AssociationConnector Association="schoolmanageModel.FK__as_submit__as_id__59904A2C" />
+        <AssociationConnector Association="schoolmanageModel.FK__as_submit__s_id__589C25F3" />
+        <AssociationConnector Association="schoolmanageModel.FK__Assingmen__as_ba__54CB950F" />
+        <AssociationConnector Association="schoolmanageModel.FK__Assingmen__as_su__55BFB948" />
+        <AssociationConnector Association="schoolmanageModel.FK__exam_resu__et_id__65F62111" />
+        <EntityTypeShape EntityType="schoolmanageModel.notice" Width="1.5" PointX="3" PointY="9.125" />
+        <AssociationConnector Association="schoolmanageModel.FK__notice__n_batch__7AF13DF7" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

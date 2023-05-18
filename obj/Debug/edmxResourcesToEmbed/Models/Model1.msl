@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="schoolmanageModelStoreContainer" CdmEntityContainer="schoolmanage">
+    <EntitySetMapping Name="batches">
+      <EntityTypeMapping TypeName="schoolmanageModel.batch">
+        <MappingFragment StoreEntitySet="batch">
+          <ScalarProperty Name="b_id" ColumnName="b_id" />
+          <ScalarProperty Name="b_code" ColumnName="b_code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="parent_info">
+      <EntityTypeMapping TypeName="schoolmanageModel.parent_info">
+        <MappingFragment StoreEntitySet="parent_info">
+          <ScalarProperty Name="par_Id" ColumnName="par_Id" />
+          <ScalarProperty Name="f_name" ColumnName="f_name" />
+          <ScalarProperty Name="f_contact" ColumnName="f_contact" />
+          <ScalarProperty Name="m_name" ColumnName="m_name" />
+          <ScalarProperty Name="m_contact" ColumnName="m_contact" />
+          <ScalarProperty Name="f_cnic" ColumnName="f_cnic" />
+          <ScalarProperty Name="f_email" ColumnName="f_email" />
+          <ScalarProperty Name="s_id" ColumnName="s_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="std_add">
+      <EntityTypeMapping TypeName="schoolmanageModel.std_add">
+        <MappingFragment StoreEntitySet="std_add">
+          <ScalarProperty Name="s_add" ColumnName="s_add" />
+          <ScalarProperty Name="s_city" ColumnName="s_city" />
+          <ScalarProperty Name="p_o_b" ColumnName="p_o_b" />
+          <ScalarProperty Name="d_o_b" ColumnName="d_o_b" />
+          <ScalarProperty Name="s_address" ColumnName="s_address" />
+          <ScalarProperty Name="s_id" ColumnName="s_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="std_info">
+      <EntityTypeMapping TypeName="schoolmanageModel.std_info">
+        <MappingFragment StoreEntitySet="std_info">
+          <ScalarProperty Name="s_id" ColumnName="s_id" />
+          <ScalarProperty Name="s_name" ColumnName="s_name" />
+          <ScalarProperty Name="s_relig" ColumnName="s_relig" />
+          <ScalarProperty Name="s_num" ColumnName="s_num" />
+          <ScalarProperty Name="s_gender" ColumnName="s_gender" />
+          <ScalarProperty Name="s_email" ColumnName="s_email" />
+          <ScalarProperty Name="s_pic" ColumnName="s_pic" />
+          <ScalarProperty Name="s_pass" ColumnName="s_pass" />
+          <ScalarProperty Name="s_cpass" ColumnName="s_cpass" />
+          <ScalarProperty Name="s_batchid" ColumnName="s_batchid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="teacher_batch">
+      <EntityTypeMapping TypeName="schoolmanageModel.teacher_batch">
+        <MappingFragment StoreEntitySet="teacher_batch">
+          <ScalarProperty Name="t_batch" ColumnName="t_batch" />
+          <ScalarProperty Name="bt_id" ColumnName="bt_id" />
+          <ScalarProperty Name="tb_id" ColumnName="tb_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="teacher_info">
+      <EntityTypeMapping TypeName="schoolmanageModel.teacher_info">
+        <MappingFragment StoreEntitySet="teacher_info">
+          <ScalarProperty Name="t_id" ColumnName="t_id" />
+          <ScalarProperty Name="t_name" ColumnName="t_name" />
+          <ScalarProperty Name="t_email" ColumnName="t_email" />
+          <ScalarProperty Name="t_salary" ColumnName="t_salary" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="std_course">
+      <EntityTypeMapping TypeName="schoolmanageModel.std_course">
+        <MappingFragment StoreEntitySet="std_course">
+          <ScalarProperty Name="c_desc" ColumnName="c_desc" />
+          <ScalarProperty Name="c_img" ColumnName="c_img" />
+          <ScalarProperty Name="c_fees" ColumnName="c_fees" />
+          <ScalarProperty Name="c_name" ColumnName="c_name" />
+          <ScalarProperty Name="c_id" ColumnName="c_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="st_fees">
+      <EntityTypeMapping TypeName="schoolmanageModel.st_fees">
+        <MappingFragment StoreEntitySet="st_fees">
+          <ScalarProperty Name="s_id" ColumnName="s_id" />
+          <ScalarProperty Name="f_fees" ColumnName="f_fees" />
+          <ScalarProperty Name="f_date" ColumnName="f_date" />
+          <ScalarProperty Name="f_month" ColumnName="f_month" />
+          <ScalarProperty Name="f_id" ColumnName="f_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="st_subj">
+      <EntityTypeMapping TypeName="schoolmanageModel.st_subj">
+        <MappingFragment StoreEntitySet="st_subj">
+          <ScalarProperty Name="s_type" ColumnName="s_type" />
+          <ScalarProperty Name="s_sub" ColumnName="s_sub" />
+          <ScalarProperty Name="s_id" ColumnName="s_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="std_mat">
+      <EntityTypeMapping TypeName="schoolmanageModel.std_mat">
+        <MappingFragment StoreEntitySet="std_mat">
+          <ScalarProperty Name="sm_batch" ColumnName="sm_batch" />
+          <ScalarProperty Name="sm_file" ColumnName="sm_file" />
+          <ScalarProperty Name="sm_desc" ColumnName="sm_desc" />
+          <ScalarProperty Name="sm_subj" ColumnName="sm_subj" />
+          <ScalarProperty Name="sm_id" ColumnName="sm_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="exams">
+      <EntityTypeMapping TypeName="schoolmanageModel.exam">
+        <MappingFragment StoreEntitySet="exam">
+          <ScalarProperty Name="e_marks" ColumnName="e_marks" />
+          <ScalarProperty Name="end_time" ColumnName="end_time" />
+          <ScalarProperty Name="est_time" ColumnName="est_time" />
+          <ScalarProperty Name="e_batch" ColumnName="e_batch" />
+          <ScalarProperty Name="e_subj" ColumnName="e_subj" />
+          <ScalarProperty Name="e_date" ColumnName="e_date" />
+          <ScalarProperty Name="e_type" ColumnName="e_type" />
+          <ScalarProperty Name="s_id" ColumnName="s_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="exam_result">
+      <EntityTypeMapping TypeName="schoolmanageModel.exam_result">
+        <MappingFragment StoreEntitySet="exam_result">
+          <ScalarProperty Name="er_remarks" ColumnName="er_remarks" />
+          <ScalarProperty Name="en_id" ColumnName="en_id" />
+          <ScalarProperty Name="et_id" ColumnName="et_id" />
+          <ScalarProperty Name="er_grade" ColumnName="er_grade" />
+          <ScalarProperty Name="er_per" ColumnName="er_per" />
+          <ScalarProperty Name="er_marks" ColumnName="er_marks" />
+          <ScalarProperty Name="s_id" ColumnName="s_id" />
+          <ScalarProperty Name="er_id" ColumnName="er_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="as_submit">
+      <EntityTypeMapping TypeName="schoolmanageModel.as_submit">
+        <MappingFragment StoreEntitySet="as_submit">
+          <ScalarProperty Name="as_id" ColumnName="as_id" />
+          <ScalarProperty Name="su_desc" ColumnName="su_desc" />
+          <ScalarProperty Name="su_submit" ColumnName="su_submit" />
+          <ScalarProperty Name="s_id" ColumnName="s_id" />
+          <ScalarProperty Name="su_id" ColumnName="su_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Assingments">
+      <EntityTypeMapping TypeName="schoolmanageModel.Assingment">
+        <MappingFragment StoreEntitySet="Assingment">
+          <ScalarProperty Name="as_desc" ColumnName="as_desc" />
+          <ScalarProperty Name="as_file" ColumnName="as_file" />
+          <ScalarProperty Name="as_date" ColumnName="as_date" />
+          <ScalarProperty Name="as_batch" ColumnName="as_batch" />
+          <ScalarProperty Name="as_sub" ColumnName="as_sub" />
+          <ScalarProperty Name="as_title" ColumnName="as_title" />
+          <ScalarProperty Name="as_id" ColumnName="as_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="notices">
+      <EntityTypeMapping TypeName="schoolmanageModel.notice">
+        <MappingFragment StoreEntitySet="notice">
+          <ScalarProperty Name="n_desc" ColumnName="n_desc" />
+          <ScalarProperty Name="n_batch" ColumnName="n_batch" />
+          <ScalarProperty Name="n_date" ColumnName="n_date" />
+          <ScalarProperty Name="n_title" ColumnName="n_title" />
+          <ScalarProperty Name="n_id" ColumnName="n_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

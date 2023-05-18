@@ -1,0 +1,51 @@
+﻿@model managment.Models.as_submit
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/layoutadmin.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>as_submit</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.su_submit)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.su_submit)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.su_desc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.su_desc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Assingment.as_title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Assingment.as_title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.std_info.s_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.std_info.s_name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.su_id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

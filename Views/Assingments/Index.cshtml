@@ -1,0 +1,71 @@
+﻿@model IEnumerable<managment.Models.Assingment>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/layoutadmin.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.Label("Title", null, htmlAttributes: new { @class = "" })
+
+        </th>
+        <th>
+            @Html.Label("Date", null, htmlAttributes: new { @class = "" })
+
+        </th>
+        <th>
+            @Html.Label("Assingments File", null, htmlAttributes: new { @class = "" })
+
+        </th>
+        <th>
+            @Html.Label("Assingments Description", null, htmlAttributes: new { @class = "" })
+
+        </th>
+        <th>
+            @Html.Label("Batch Code", null, htmlAttributes: new { @class = "" })
+
+        </th>
+        <th>
+            @Html.Label("Subject", null, htmlAttributes: new { @class = "" })
+
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.as_title)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.as_date)
+    </td>
+    <td>
+        <button class="btn"><a href="@Url.Content(item.as_file)" download="">Download</a></button>
+
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.as_desc)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.batch.b_code)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.st_subj.s_sub)
+    </td>
+    <td>
+        @Html.ActionLink("Edit", "Edit", new { id = item.as_id }) |
+        @Html.ActionLink("Details", "Details", new { id = item.as_id }) |
+        @Html.ActionLink("Delete", "Delete", new { id = item.as_id })
+    </td>
+</tr>
+}
+
+</table>

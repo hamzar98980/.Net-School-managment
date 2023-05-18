@@ -1,0 +1,56 @@
+﻿@model IEnumerable<managment.Models.std_course>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/layoutadmin.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.Label("Course Name", null, htmlAttributes: new { @class = "" })
+
+        </th>
+        <th>
+            @Html.Label("Course Fees", null, htmlAttributes: new { @class = "" })
+
+        </th>
+        <th>
+            @Html.Label("Course Image", null, htmlAttributes: new { @class = "" })
+
+        </th>
+        <th>
+            @Html.Label("Course Description", null, htmlAttributes: new { @class = "" })
+
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.c_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.c_fees)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.c_img)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.c_desc)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.c_id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.c_id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.c_id })
+        </td>
+    </tr>
+}
+
+</table>

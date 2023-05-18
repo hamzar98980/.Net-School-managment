@@ -1,0 +1,57 @@
+﻿@model IEnumerable<managment.Models.as_submit>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/layoutadmin.cshtml";
+}
+
+<h2>Students Assingments</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.Label("Assingments File", null, htmlAttributes: new { @class = "" })
+
+        </th>
+        <th>
+            @Html.Label(" Description", null, htmlAttributes: new { @class = "" })
+
+        </th>
+        <th>
+            @Html.Label("Assingment Name", null, htmlAttributes: new { @class = "" })
+
+        </th>
+        <th>
+            @Html.Label("Student Name", null, htmlAttributes: new { @class = "" })
+
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            <button class="btn"><a href="@Url.Content(item.su_submit)" download="">Download</a></button>
+
+        </td>
+        <td>    
+            @Html.DisplayFor(modelItem => item.su_desc)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Assingment.as_title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.std_info.s_name)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.su_id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.su_id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.su_id })
+        </td>
+    </tr>
+}
+
+</table>

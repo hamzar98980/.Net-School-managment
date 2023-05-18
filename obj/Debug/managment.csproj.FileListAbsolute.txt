@@ -1,0 +1,1494 @@
+C:\Users\User\Desktop\Project school manag\managment\bin\managment.dll.config
+C:\Users\User\Desktop\Project school manag\managment\bin\managment.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\managment.pdb
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\csc.exe
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\csc.exe.config
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\csc.rsp
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\csi.exe
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\csi.exe.config
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\csi.rsp
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\System.AppContext.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\System.Console.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\System.IO.Compression.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\System.Net.Http.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\System.Net.Sockets.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\System.ValueTuple.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\System.Xml.XPath.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\vbc.exe
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\vbc.exe.config
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\vbc.rsp
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Desktop\Project school manag\managment\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Desktop\Project school manag\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\System.Web.Helpers.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\System.Web.Webpages.Deployment.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\System.Web.Webpages.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\System.Web.Webpages.Razor.dll
+C:\Users\User\Desktop\Project school manag\managment\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\Project school manag\managment\bin\System.Web.Webpages.xml
+C:\Users\User\Desktop\Project school manag\managment\bin\System.Web.Webpages.Deployment.xml
+C:\Users\User\Desktop\Project school manag\managment\bin\System.Web.Webpages.Razor.xml
+C:\Users\User\Desktop\Project school manag\managment\bin\System.Web.Helpers.xml
+C:\Users\User\Desktop\Project school manag\managment\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\Project school manag\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Desktop\Project school manag\managment\obj\Debug\managment.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Project school manag\managment\obj\Debug\managment.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Project school manag\managment\obj\Debug\managment.dll
+C:\Users\User\Desktop\Project school manag\managment\obj\Debug\managment.pdb
+C:\Users\asp\Desktop\managment\bin\managment.dll.config
+C:\Users\asp\Desktop\managment\bin\managment.dll
+C:\Users\asp\Desktop\managment\bin\managment.pdb
+C:\Users\asp\Desktop\managment\bin\roslyn\csc.exe
+C:\Users\asp\Desktop\managment\bin\roslyn\csc.exe.config
+C:\Users\asp\Desktop\managment\bin\roslyn\csc.rsp
+C:\Users\asp\Desktop\managment\bin\roslyn\csi.exe
+C:\Users\asp\Desktop\managment\bin\roslyn\csi.exe.config
+C:\Users\asp\Desktop\managment\bin\roslyn\csi.rsp
+C:\Users\asp\Desktop\managment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\asp\Desktop\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\asp\Desktop\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\asp\Desktop\managment\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\asp\Desktop\managment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\asp\Desktop\managment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\asp\Desktop\managment\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\asp\Desktop\managment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\asp\Desktop\managment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\asp\Desktop\managment\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\asp\Desktop\managment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\asp\Desktop\managment\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\asp\Desktop\managment\bin\roslyn\System.AppContext.dll
+C:\Users\asp\Desktop\managment\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\asp\Desktop\managment\bin\roslyn\System.Console.dll
+C:\Users\asp\Desktop\managment\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\asp\Desktop\managment\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\asp\Desktop\managment\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\asp\Desktop\managment\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\asp\Desktop\managment\bin\roslyn\System.IO.Compression.dll
+C:\Users\asp\Desktop\managment\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\asp\Desktop\managment\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\asp\Desktop\managment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\asp\Desktop\managment\bin\roslyn\System.Net.Http.dll
+C:\Users\asp\Desktop\managment\bin\roslyn\System.Net.Sockets.dll
+C:\Users\asp\Desktop\managment\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\asp\Desktop\managment\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\asp\Desktop\managment\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\asp\Desktop\managment\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\asp\Desktop\managment\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\asp\Desktop\managment\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\asp\Desktop\managment\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\asp\Desktop\managment\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\asp\Desktop\managment\bin\roslyn\System.ValueTuple.dll
+C:\Users\asp\Desktop\managment\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\asp\Desktop\managment\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\asp\Desktop\managment\bin\roslyn\System.Xml.XPath.dll
+C:\Users\asp\Desktop\managment\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\asp\Desktop\managment\bin\roslyn\vbc.exe
+C:\Users\asp\Desktop\managment\bin\roslyn\vbc.exe.config
+C:\Users\asp\Desktop\managment\bin\roslyn\vbc.rsp
+C:\Users\asp\Desktop\managment\bin\roslyn\VBCSCompiler.exe
+C:\Users\asp\Desktop\managment\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\asp\Desktop\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asp\Desktop\managment\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asp\Desktop\managment\bin\System.Web.Helpers.dll
+C:\Users\asp\Desktop\managment\bin\System.Web.Mvc.dll
+C:\Users\asp\Desktop\managment\bin\System.Web.Razor.dll
+C:\Users\asp\Desktop\managment\bin\System.Web.Webpages.Deployment.dll
+C:\Users\asp\Desktop\managment\bin\System.Web.Webpages.dll
+C:\Users\asp\Desktop\managment\bin\System.Web.Webpages.Razor.dll
+C:\Users\asp\Desktop\managment\bin\System.Web.Razor.xml
+C:\Users\asp\Desktop\managment\bin\System.Web.Webpages.xml
+C:\Users\asp\Desktop\managment\bin\System.Web.Webpages.Deployment.xml
+C:\Users\asp\Desktop\managment\bin\System.Web.Webpages.Razor.xml
+C:\Users\asp\Desktop\managment\bin\System.Web.Helpers.xml
+C:\Users\asp\Desktop\managment\bin\System.Web.Mvc.xml
+C:\Users\asp\Desktop\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asp\Desktop\managment\obj\Debug\managment.csprojResolveAssemblyReference.cache
+C:\Users\asp\Desktop\managment\obj\Debug\managment.csproj.CoreCompileInputs.cache
+C:\Users\asp\Desktop\managment\obj\Debug\managment.dll
+C:\Users\asp\Desktop\managment\obj\Debug\managment.pdb
+C:\Users\asp\Desktop\managment\bin\EntityFramework.dll
+C:\Users\asp\Desktop\managment\bin\EntityFramework.SqlServer.dll
+C:\Users\asp\Desktop\managment\bin\EntityFramework.xml
+C:\Users\asp\Desktop\managment\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\managment.dll.config
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\managment.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\managment.pdb
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\csc.exe
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\csc.exe.config
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\csc.rsp
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\csi.exe
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\csi.exe.config
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\csi.rsp
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\System.AppContext.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\System.Console.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\System.IO.Compression.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\System.Net.Http.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\System.Net.Sockets.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\System.ValueTuple.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\System.Xml.XPath.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\vbc.exe
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\vbc.exe.config
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\vbc.rsp
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\EntityFramework.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\System.Web.Helpers.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\System.Web.Webpages.Deployment.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\System.Web.Webpages.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\System.Web.Webpages.Razor.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\EntityFramework.xml
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\System.Web.Webpages.xml
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\System.Web.Webpages.Deployment.xml
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\System.Web.Webpages.Razor.xml
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\System.Web.Helpers.xml
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\Project school manag\managment 01\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Desktop\Project school manag\managment 01\managment\obj\Debug\managment.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Project school manag\managment 01\managment\obj\Debug\managment.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Project school manag\managment 01\managment\obj\Debug\managment.dll
+C:\Users\User\Desktop\Project school manag\managment 01\managment\obj\Debug\managment.pdb
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\managment.dll.config
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\managment.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\managment.pdb
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\csc.exe
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\csc.exe.config
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\csc.rsp
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\csi.exe
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\csi.exe.config
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\csi.rsp
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\System.AppContext.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\System.Console.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\System.IO.Compression.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\System.Net.Http.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\System.Net.Sockets.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\System.ValueTuple.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\System.Xml.XPath.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\vbc.exe
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\vbc.exe.config
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\vbc.rsp
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\VBCSCompiler.exe
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\EntityFramework.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\EntityFramework.SqlServer.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\System.Web.Helpers.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\System.Web.Mvc.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\System.Web.Razor.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\System.Web.Webpages.Deployment.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\System.Web.Webpages.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\System.Web.Webpages.Razor.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\EntityFramework.xml
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\EntityFramework.SqlServer.xml
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\System.Web.Razor.xml
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\System.Web.Webpages.xml
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\System.Web.Webpages.Deployment.xml
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\System.Web.Webpages.Razor.xml
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\System.Web.Helpers.xml
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\System.Web.Mvc.xml
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\obj\Debug\managment.csprojResolveAssemblyReference.cache
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\obj\Debug\managment.csproj.CoreCompileInputs.cache
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\obj\Debug\managment.dll
+C:\Users\asp\Desktop\New folder (2)\management 2\managment\obj\Debug\managment.pdb
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\managment.dll.config
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\managment.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\managment.pdb
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\csc.exe
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\csc.exe.config
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\csc.rsp
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\csi.exe
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\csi.exe.config
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\csi.rsp
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\System.AppContext.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\System.Console.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\System.IO.Compression.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\System.Net.Http.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\System.Net.Sockets.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\System.ValueTuple.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\System.Xml.XPath.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\vbc.exe
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\vbc.exe.config
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\vbc.rsp
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\EntityFramework.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\System.Web.Helpers.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\System.Web.Webpages.Deployment.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\System.Web.Webpages.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\System.Web.Webpages.Razor.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\EntityFramework.xml
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\System.Web.Webpages.xml
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\System.Web.Webpages.Deployment.xml
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\System.Web.Webpages.Razor.xml
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\System.Web.Helpers.xml
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\Project school manag\managment  02\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Desktop\Project school manag\managment  02\managment\obj\Debug\managment.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Project school manag\managment  02\managment\obj\Debug\managment.dll
+C:\Users\User\Desktop\Project school manag\managment  02\managment\obj\Debug\managment.pdb
+C:\Users\User\Desktop\Project school manag\managment  02\managment\obj\Debug\managment.csproj.AssemblyReference.cache
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\managment.dll.config
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\managment.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\managment.pdb
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\csc.exe
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\csc.exe.config
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\csc.rsp
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\csi.exe
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\csi.exe.config
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\csi.rsp
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\System.AppContext.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\System.Console.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\System.IO.Compression.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\System.Net.Http.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\System.Net.Sockets.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\System.ValueTuple.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\System.Xml.XPath.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\vbc.exe
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\vbc.exe.config
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\vbc.rsp
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\VBCSCompiler.exe
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\EntityFramework.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\EntityFramework.SqlServer.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\System.Web.Helpers.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\System.Web.Mvc.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\System.Web.Razor.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\System.Web.Webpages.Deployment.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\System.Web.Webpages.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\System.Web.Webpages.Razor.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\EntityFramework.xml
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\EntityFramework.SqlServer.xml
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\System.Web.Razor.xml
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\System.Web.Webpages.xml
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\System.Web.Webpages.Deployment.xml
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\System.Web.Webpages.Razor.xml
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\System.Web.Helpers.xml
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\System.Web.Mvc.xml
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\obj\Debug\managment.csproj.CoreCompileInputs.cache
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\obj\Debug\managment.dll
+C:\Users\asp\Desktop\New folder (2)\managment 3\managment\obj\Debug\managment.pdb
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\managment.dll.config
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\managment.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\managment.pdb
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\csc.exe
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\csc.exe.config
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\csc.rsp
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\csi.exe
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\csi.exe.config
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\csi.rsp
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\System.AppContext.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\System.Console.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\System.IO.Compression.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\System.Net.Http.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\System.Net.Sockets.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\System.ValueTuple.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\System.Xml.XPath.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\vbc.exe
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\vbc.exe.config
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\vbc.rsp
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\EntityFramework.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\System.Web.Helpers.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\System.Web.Webpages.Deployment.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\System.Web.Webpages.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\System.Web.Webpages.Razor.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\EntityFramework.xml
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\System.Web.Webpages.xml
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\System.Web.Webpages.Deployment.xml
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\System.Web.Webpages.Razor.xml
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\System.Web.Helpers.xml
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\Project school manag\managment -4\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Desktop\Project school manag\managment -4\managment\obj\Debug\managment.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Project school manag\managment -4\managment\obj\Debug\managment.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Project school manag\managment -4\managment\obj\Debug\managment.dll
+C:\Users\User\Desktop\Project school manag\managment -4\managment\obj\Debug\managment.pdb
+C:\Intel\Hamza R\PROJECT\managment\bin\managment.dll.config
+C:\Intel\Hamza R\PROJECT\managment\bin\managment.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\managment.pdb
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\csc.exe
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\csc.exe.config
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\csc.rsp
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\csi.exe
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\csi.exe.config
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\csi.rsp
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\System.AppContext.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\System.Collections.Immutable.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\System.Console.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\System.Globalization.Calendars.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\System.IO.Compression.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\System.IO.FileSystem.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\System.Net.Http.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\System.Net.Sockets.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\System.Reflection.Metadata.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\System.ValueTuple.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\System.Xml.XPath.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\vbc.exe
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\vbc.exe.config
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\vbc.rsp
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\VBCSCompiler.exe
+C:\Intel\Hamza R\PROJECT\managment\bin\roslyn\VBCSCompiler.exe.config
+C:\Intel\Hamza R\PROJECT\managment\bin\EntityFramework.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\EntityFramework.SqlServer.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\Microsoft.Web.Infrastructure.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\System.Web.Helpers.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\System.Web.Mvc.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\System.Web.Razor.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\System.Web.Webpages.Deployment.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\System.Web.Webpages.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\System.Web.Webpages.Razor.dll
+C:\Intel\Hamza R\PROJECT\managment\bin\EntityFramework.xml
+C:\Intel\Hamza R\PROJECT\managment\bin\EntityFramework.SqlServer.xml
+C:\Intel\Hamza R\PROJECT\managment\bin\System.Web.Razor.xml
+C:\Intel\Hamza R\PROJECT\managment\bin\System.Web.Webpages.xml
+C:\Intel\Hamza R\PROJECT\managment\bin\System.Web.Webpages.Deployment.xml
+C:\Intel\Hamza R\PROJECT\managment\bin\System.Web.Webpages.Razor.xml
+C:\Intel\Hamza R\PROJECT\managment\bin\System.Web.Helpers.xml
+C:\Intel\Hamza R\PROJECT\managment\bin\System.Web.Mvc.xml
+C:\Intel\Hamza R\PROJECT\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Intel\Hamza R\PROJECT\managment\obj\Debug\managment.csprojResolveAssemblyReference.cache
+C:\Intel\Hamza R\PROJECT\managment\obj\Debug\managment.csproj.CoreCompileInputs.cache
+C:\Intel\Hamza R\PROJECT\managment\obj\Debug\managment.dll
+C:\Intel\Hamza R\PROJECT\managment\obj\Debug\managment.pdb
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\managment.dll.config
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\managment.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\managment.pdb
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\csc.exe
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\csc.exe.config
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\csc.rsp
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\csi.exe
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\csi.exe.config
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\csi.rsp
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\System.AppContext.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\System.Console.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\System.IO.Compression.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\System.Net.Http.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\System.Net.Sockets.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\System.ValueTuple.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\System.Xml.XPath.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\vbc.exe
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\vbc.exe.config
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\vbc.rsp
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\EntityFramework.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\System.Web.Helpers.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\System.Web.Webpages.Deployment.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\System.Web.Webpages.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\System.Web.Webpages.Razor.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\EntityFramework.xml
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\System.Web.Webpages.xml
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\System.Web.Webpages.Deployment.xml
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\System.Web.Webpages.Razor.xml
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\System.Web.Helpers.xml
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\Project school manag\managment-06\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Desktop\Project school manag\managment-06\managment\obj\Debug\managment.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Project school manag\managment-06\managment\obj\Debug\managment.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Project school manag\managment-06\managment\obj\Debug\managment.dll
+C:\Users\User\Desktop\Project school manag\managment-06\managment\obj\Debug\managment.pdb
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\managment.dll.config
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\managment.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\managment.pdb
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\csc.exe
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\csc.exe.config
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\csc.rsp
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\csi.exe
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\csi.exe.config
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\csi.rsp
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\System.AppContext.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\System.Console.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\System.IO.Compression.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\System.Net.Http.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\System.Net.Sockets.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\System.ValueTuple.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\System.Xml.XPath.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\vbc.exe
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\vbc.exe.config
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\vbc.rsp
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\VBCSCompiler.exe
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\EntityFramework.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\EntityFramework.SqlServer.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\System.Web.Helpers.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\System.Web.Mvc.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\System.Web.Razor.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\System.Web.Webpages.Deployment.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\System.Web.Webpages.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\System.Web.Webpages.Razor.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\EntityFramework.xml
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\EntityFramework.SqlServer.xml
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\System.Web.Razor.xml
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\System.Web.Webpages.xml
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\System.Web.Webpages.Deployment.xml
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\System.Web.Webpages.Razor.xml
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\System.Web.Helpers.xml
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\System.Web.Mvc.xml
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\obj\Debug\managment.csproj.CoreCompileInputs.cache
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\obj\Debug\managment.dll
+C:\Users\asp\Desktop\MANAGMENT PROJ\managment\obj\Debug\managment.pdb
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\managment.dll.config
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\managment.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\managment.pdb
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\csc.exe
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\csc.exe.config
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\csc.rsp
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\csi.exe
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\csi.exe.config
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\csi.rsp
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\System.AppContext.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\System.Console.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\System.IO.Compression.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\System.Net.Http.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\System.Net.Sockets.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\System.ValueTuple.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\System.Xml.XPath.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\vbc.exe
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\vbc.exe.config
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\vbc.rsp
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\EntityFramework.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\System.Web.Helpers.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\System.Web.Webpages.Deployment.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\System.Web.Webpages.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\System.Web.Webpages.Razor.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\EntityFramework.xml
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\System.Web.Webpages.xml
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\System.Web.Webpages.Deployment.xml
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\System.Web.Webpages.Razor.xml
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\System.Web.Helpers.xml
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\obj\Debug\managment.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\obj\Debug\managment.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\obj\Debug\managment.dll
+C:\Users\User\Desktop\Project school manag\managet 0-9\managment\obj\Debug\managment.pdb
+C:\Users\asp\Desktop\New folder\managment\bin\managment.dll.config
+C:\Users\asp\Desktop\New folder\managment\bin\managment.dll
+C:\Users\asp\Desktop\New folder\managment\bin\managment.pdb
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\csc.exe
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\csc.exe.config
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\csc.rsp
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\csi.exe
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\csi.exe.config
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\csi.rsp
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\System.AppContext.dll
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\System.Console.dll
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\System.IO.Compression.dll
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\System.Net.Http.dll
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\System.Net.Sockets.dll
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\System.ValueTuple.dll
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\System.Xml.XPath.dll
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\vbc.exe
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\vbc.exe.config
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\vbc.rsp
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\VBCSCompiler.exe
+C:\Users\asp\Desktop\New folder\managment\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\asp\Desktop\New folder\managment\bin\EntityFramework.dll
+C:\Users\asp\Desktop\New folder\managment\bin\EntityFramework.SqlServer.dll
+C:\Users\asp\Desktop\New folder\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asp\Desktop\New folder\managment\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asp\Desktop\New folder\managment\bin\System.Web.Helpers.dll
+C:\Users\asp\Desktop\New folder\managment\bin\System.Web.Mvc.dll
+C:\Users\asp\Desktop\New folder\managment\bin\System.Web.Razor.dll
+C:\Users\asp\Desktop\New folder\managment\bin\System.Web.Webpages.Deployment.dll
+C:\Users\asp\Desktop\New folder\managment\bin\System.Web.Webpages.dll
+C:\Users\asp\Desktop\New folder\managment\bin\System.Web.Webpages.Razor.dll
+C:\Users\asp\Desktop\New folder\managment\bin\EntityFramework.xml
+C:\Users\asp\Desktop\New folder\managment\bin\EntityFramework.SqlServer.xml
+C:\Users\asp\Desktop\New folder\managment\bin\System.Web.Razor.xml
+C:\Users\asp\Desktop\New folder\managment\bin\System.Web.Webpages.xml
+C:\Users\asp\Desktop\New folder\managment\bin\System.Web.Webpages.Deployment.xml
+C:\Users\asp\Desktop\New folder\managment\bin\System.Web.Webpages.Razor.xml
+C:\Users\asp\Desktop\New folder\managment\bin\System.Web.Helpers.xml
+C:\Users\asp\Desktop\New folder\managment\bin\System.Web.Mvc.xml
+C:\Users\asp\Desktop\New folder\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asp\Desktop\New folder\managment\obj\Debug\managment.csprojResolveAssemblyReference.cache
+C:\Users\asp\Desktop\New folder\managment\obj\Debug\managment.csproj.CoreCompileInputs.cache
+C:\Users\asp\Desktop\New folder\managment\obj\Debug\managment.dll
+C:\Users\asp\Desktop\New folder\managment\obj\Debug\managment.pdb
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\managment.dll.config
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\managment.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\managment.pdb
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\csc.exe
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\csc.exe.config
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\csc.rsp
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\csi.exe
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\csi.exe.config
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\csi.rsp
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\System.AppContext.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\System.Console.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\System.IO.Compression.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\System.Net.Http.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\System.Net.Sockets.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\System.ValueTuple.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\System.Xml.XPath.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\vbc.exe
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\vbc.exe.config
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\vbc.rsp
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\EntityFramework.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\System.Web.Helpers.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\System.Web.Webpages.Deployment.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\System.Web.Webpages.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\System.Web.Webpages.Razor.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\EntityFramework.xml
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\System.Web.Webpages.xml
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\System.Web.Webpages.Deployment.xml
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\System.Web.Webpages.Razor.xml
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\System.Web.Helpers.xml
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\obj\Debug\managment.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\obj\Debug\managment.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\obj\Debug\managment.dll
+C:\Users\User\Desktop\Project school manag\Managment  11\managment\obj\Debug\managment.pdb
+C:\Users\asp\Desktop\New folder (2)\managment\bin\managment.dll.config
+C:\Users\asp\Desktop\New folder (2)\managment\bin\managment.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\managment.pdb
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\csc.exe
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\csc.exe.config
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\csc.rsp
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\csi.exe
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\csi.exe.config
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\csi.rsp
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\System.AppContext.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\System.Console.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\System.IO.Compression.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\System.Net.Http.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\System.Net.Sockets.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\System.ValueTuple.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\System.Xml.XPath.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\vbc.exe
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\vbc.exe.config
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\vbc.rsp
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\VBCSCompiler.exe
+C:\Users\asp\Desktop\New folder (2)\managment\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\asp\Desktop\New folder (2)\managment\bin\EntityFramework.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\EntityFramework.SqlServer.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\System.Web.Helpers.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\System.Web.Mvc.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\System.Web.Razor.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\System.Web.Webpages.Deployment.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\System.Web.Webpages.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\System.Web.Webpages.Razor.dll
+C:\Users\asp\Desktop\New folder (2)\managment\bin\EntityFramework.xml
+C:\Users\asp\Desktop\New folder (2)\managment\bin\EntityFramework.SqlServer.xml
+C:\Users\asp\Desktop\New folder (2)\managment\bin\System.Web.Razor.xml
+C:\Users\asp\Desktop\New folder (2)\managment\bin\System.Web.Webpages.xml
+C:\Users\asp\Desktop\New folder (2)\managment\bin\System.Web.Webpages.Deployment.xml
+C:\Users\asp\Desktop\New folder (2)\managment\bin\System.Web.Webpages.Razor.xml
+C:\Users\asp\Desktop\New folder (2)\managment\bin\System.Web.Helpers.xml
+C:\Users\asp\Desktop\New folder (2)\managment\bin\System.Web.Mvc.xml
+C:\Users\asp\Desktop\New folder (2)\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asp\Desktop\New folder (2)\managment\obj\Debug\managment.csprojResolveAssemblyReference.cache
+C:\Users\asp\Desktop\New folder (2)\managment\obj\Debug\managment.csproj.CoreCompileInputs.cache
+C:\Users\asp\Desktop\New folder (2)\managment\obj\Debug\managment.dll
+C:\Users\asp\Desktop\New folder (2)\managment\obj\Debug\managment.pdb
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\managment.dll.config
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\managment.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\managment.pdb
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\csc.exe
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\csc.exe.config
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\csc.rsp
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\csi.exe
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\csi.exe.config
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\csi.rsp
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\System.AppContext.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\System.Console.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\System.IO.Compression.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\System.Net.Http.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\System.Net.Sockets.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\System.ValueTuple.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\System.Xml.XPath.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\vbc.exe
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\vbc.exe.config
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\vbc.rsp
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\EntityFramework.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\System.Web.Helpers.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\System.Web.Webpages.Deployment.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\System.Web.Webpages.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\System.Web.Webpages.Razor.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\EntityFramework.xml
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\System.Web.Webpages.xml
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\System.Web.Webpages.Deployment.xml
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\System.Web.Webpages.Razor.xml
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\System.Web.Helpers.xml
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\Project school manag\managment 13\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Desktop\Project school manag\managment 13\managment\obj\Debug\managment.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Project school manag\managment 13\managment\obj\Debug\managment.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Project school manag\managment 13\managment\obj\Debug\managment.dll
+C:\Users\User\Desktop\Project school manag\managment 13\managment\obj\Debug\managment.pdb
+C:\Users\asp\Downloads\managment\bin\managment.dll.config
+C:\Users\asp\Downloads\managment\bin\managment.dll
+C:\Users\asp\Downloads\managment\bin\managment.pdb
+C:\Users\asp\Downloads\managment\bin\roslyn\csc.exe
+C:\Users\asp\Downloads\managment\bin\roslyn\csc.exe.config
+C:\Users\asp\Downloads\managment\bin\roslyn\csc.rsp
+C:\Users\asp\Downloads\managment\bin\roslyn\csi.exe
+C:\Users\asp\Downloads\managment\bin\roslyn\csi.exe.config
+C:\Users\asp\Downloads\managment\bin\roslyn\csi.rsp
+C:\Users\asp\Downloads\managment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\asp\Downloads\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\asp\Downloads\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\asp\Downloads\managment\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\asp\Downloads\managment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\asp\Downloads\managment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\asp\Downloads\managment\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\asp\Downloads\managment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\asp\Downloads\managment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\asp\Downloads\managment\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\asp\Downloads\managment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\asp\Downloads\managment\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\asp\Downloads\managment\bin\roslyn\System.AppContext.dll
+C:\Users\asp\Downloads\managment\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\asp\Downloads\managment\bin\roslyn\System.Console.dll
+C:\Users\asp\Downloads\managment\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\asp\Downloads\managment\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\asp\Downloads\managment\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\asp\Downloads\managment\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\asp\Downloads\managment\bin\roslyn\System.IO.Compression.dll
+C:\Users\asp\Downloads\managment\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\asp\Downloads\managment\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\asp\Downloads\managment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\asp\Downloads\managment\bin\roslyn\System.Net.Http.dll
+C:\Users\asp\Downloads\managment\bin\roslyn\System.Net.Sockets.dll
+C:\Users\asp\Downloads\managment\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\asp\Downloads\managment\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\asp\Downloads\managment\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\asp\Downloads\managment\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\asp\Downloads\managment\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\asp\Downloads\managment\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\asp\Downloads\managment\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\asp\Downloads\managment\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\asp\Downloads\managment\bin\roslyn\System.ValueTuple.dll
+C:\Users\asp\Downloads\managment\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\asp\Downloads\managment\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\asp\Downloads\managment\bin\roslyn\System.Xml.XPath.dll
+C:\Users\asp\Downloads\managment\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\asp\Downloads\managment\bin\roslyn\vbc.exe
+C:\Users\asp\Downloads\managment\bin\roslyn\vbc.exe.config
+C:\Users\asp\Downloads\managment\bin\roslyn\vbc.rsp
+C:\Users\asp\Downloads\managment\bin\roslyn\VBCSCompiler.exe
+C:\Users\asp\Downloads\managment\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\asp\Downloads\managment\bin\EntityFramework.dll
+C:\Users\asp\Downloads\managment\bin\EntityFramework.SqlServer.dll
+C:\Users\asp\Downloads\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asp\Downloads\managment\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asp\Downloads\managment\bin\System.Web.Helpers.dll
+C:\Users\asp\Downloads\managment\bin\System.Web.Mvc.dll
+C:\Users\asp\Downloads\managment\bin\System.Web.Razor.dll
+C:\Users\asp\Downloads\managment\bin\System.Web.Webpages.Deployment.dll
+C:\Users\asp\Downloads\managment\bin\System.Web.Webpages.dll
+C:\Users\asp\Downloads\managment\bin\System.Web.Webpages.Razor.dll
+C:\Users\asp\Downloads\managment\bin\EntityFramework.xml
+C:\Users\asp\Downloads\managment\bin\EntityFramework.SqlServer.xml
+C:\Users\asp\Downloads\managment\bin\System.Web.Razor.xml
+C:\Users\asp\Downloads\managment\bin\System.Web.Webpages.xml
+C:\Users\asp\Downloads\managment\bin\System.Web.Webpages.Deployment.xml
+C:\Users\asp\Downloads\managment\bin\System.Web.Webpages.Razor.xml
+C:\Users\asp\Downloads\managment\bin\System.Web.Helpers.xml
+C:\Users\asp\Downloads\managment\bin\System.Web.Mvc.xml
+C:\Users\asp\Downloads\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asp\Downloads\managment\obj\Debug\managment.csprojResolveAssemblyReference.cache
+C:\Users\asp\Downloads\managment\obj\Debug\managment.csproj.CoreCompileInputs.cache
+C:\Users\asp\Downloads\managment\obj\Debug\managment.dll
+C:\Users\asp\Downloads\managment\obj\Debug\managment.pdb
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\managment.dll.config
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\managment.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\managment.pdb
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\csc.exe
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\csc.exe.config
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\csc.rsp
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\csi.exe
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\csi.exe.config
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\csi.rsp
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\System.AppContext.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\System.Console.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\System.IO.Compression.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\System.Net.Http.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\System.Net.Sockets.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\System.ValueTuple.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\System.Xml.XPath.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\vbc.exe
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\vbc.exe.config
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\vbc.rsp
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\EntityFramework.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\System.Web.Helpers.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\System.Web.Webpages.Deployment.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\System.Web.Webpages.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\System.Web.Webpages.Razor.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\EntityFramework.xml
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\System.Web.Webpages.xml
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\System.Web.Webpages.Deployment.xml
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\System.Web.Webpages.Razor.xml
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\System.Web.Helpers.xml
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\Project school manag\End 2\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Desktop\Project school manag\End 2\managment\obj\Debug\managment.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Project school manag\End 2\managment\obj\Debug\managment.dll
+C:\Users\User\Desktop\Project school manag\End 2\managment\obj\Debug\managment.pdb
+C:\Users\User\Desktop\Project school manag\End 2\managment\obj\Debug\managment.csproj.AssemblyReference.cache
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\managment.dll.config
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\managment.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\managment.pdb
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\csc.exe
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\csc.exe.config
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\csc.rsp
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\csi.exe
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\csi.exe.config
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\csi.rsp
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\System.AppContext.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\System.Console.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\System.IO.Compression.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\System.Net.Http.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\System.Net.Sockets.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\System.ValueTuple.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\System.Xml.XPath.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\vbc.exe
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\vbc.exe.config
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\vbc.rsp
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\VBCSCompiler.exe
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\EntityFramework.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\EntityFramework.SqlServer.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\System.Web.Helpers.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\System.Web.Mvc.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\System.Web.Razor.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\System.Web.Webpages.Deployment.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\System.Web.Webpages.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\System.Web.Webpages.Razor.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\EntityFramework.xml
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\EntityFramework.SqlServer.xml
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\System.Web.Razor.xml
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\System.Web.Webpages.xml
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\System.Web.Webpages.Deployment.xml
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\System.Web.Webpages.Razor.xml
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\System.Web.Helpers.xml
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\System.Web.Mvc.xml
+C:\Users\asp\Desktop\New folder (2)\end\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asp\Desktop\New folder (2)\end\managment\obj\Debug\managment.csprojResolveAssemblyReference.cache
+C:\Users\asp\Desktop\New folder (2)\end\managment\obj\Debug\managment.csproj.CoreCompileInputs.cache
+C:\Users\asp\Desktop\New folder (2)\end\managment\obj\Debug\managment.dll
+C:\Users\asp\Desktop\New folder (2)\end\managment\obj\Debug\managment.pdb
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\managment.dll.config
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\managment.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\managment.pdb
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\csc.exe
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\csc.exe.config
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\csc.rsp
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\csi.exe
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\csi.exe.config
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\csi.rsp
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\System.AppContext.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\System.Console.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\System.IO.Compression.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\System.Net.Http.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\System.Net.Sockets.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\System.ValueTuple.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\System.Xml.XPath.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\vbc.exe
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\vbc.exe.config
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\vbc.rsp
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\EntityFramework.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\System.Web.Helpers.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\System.Web.Webpages.Deployment.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\System.Web.Webpages.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\System.Web.Webpages.Razor.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\EntityFramework.xml
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\System.Web.Webpages.xml
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\System.Web.Webpages.Deployment.xml
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\System.Web.Webpages.Razor.xml
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\System.Web.Helpers.xml
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\Project school manag\Final\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Desktop\Project school manag\Final\managment\obj\Debug\managment.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Project school manag\Final\managment\obj\Debug\managment.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Project school manag\Final\managment\obj\Debug\managment.dll
+C:\Users\User\Desktop\Project school manag\Final\managment\obj\Debug\managment.pdb
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\managment.dll.config
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\managment.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\managment.pdb
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\csc.exe
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\csc.exe.config
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\csc.rsp
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\csi.exe
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\csi.exe.config
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\csi.rsp
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\System.AppContext.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\System.Console.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\System.IO.Compression.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\System.Net.Http.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\System.Net.Sockets.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\System.ValueTuple.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\System.Xml.XPath.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\vbc.exe
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\vbc.exe.config
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\vbc.rsp
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\EntityFramework.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\System.Web.Helpers.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\System.Web.Webpages.Deployment.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\System.Web.Webpages.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\System.Web.Webpages.Razor.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\EntityFramework.xml
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\System.Web.Webpages.xml
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\System.Web.Webpages.Deployment.xml
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\System.Web.Webpages.Razor.xml
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\System.Web.Helpers.xml
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\obj\Debug\managment.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\obj\Debug\managment.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\obj\Debug\managment.dll
+C:\Users\User\Desktop\Project school manag\FINAL 02\managment\obj\Debug\managment.pdb

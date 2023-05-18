@@ -1,0 +1,35 @@
+﻿@model IEnumerable<managment.Models.batch>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/layoutadmin.cshtml";
+}
+
+
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.Label("Batches", null, htmlAttributes: new { @class = "" })
+
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.b_code)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.b_id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.b_id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.b_id })
+        </td>
+    </tr>
+}
+
+</table>

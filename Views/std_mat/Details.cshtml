@@ -1,0 +1,51 @@
+﻿@model managment.Models.std_mat
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/layoutadmin.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>std_mat</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.sm_desc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sm_desc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.sm_file)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sm_file)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.batch.b_code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.batch.b_code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.st_subj.s_sub)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.st_subj.s_sub)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.sm_id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

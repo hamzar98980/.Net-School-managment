@@ -1,0 +1,43 @@
+﻿@model IEnumerable<managment.Models.teacher_batch>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/layoutadmin.cshtml";
+}
+
+<h2>Teachers Batches</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.Label("Batch Code", null, htmlAttributes: new { @class = "" })
+
+           
+        </th>
+        <th>
+            @Html.Label("Teacher ", null, htmlAttributes: new { @class = "" })
+
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.batch.b_code)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.teacher_info.t_name)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.t_batch }) |
+            @Html.ActionLink("Details", "Details", new { id=item.t_batch }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.t_batch })
+        </td>
+    </tr>
+}
+
+</table>

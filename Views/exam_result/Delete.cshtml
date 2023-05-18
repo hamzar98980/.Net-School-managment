@@ -1,0 +1,81 @@
+﻿@model managment.Models.exam_result
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/layoutadmin.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>exam_result</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.er_marks)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.er_marks)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.er_per)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.er_per)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.er_grade)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.er_grade)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.er_remarks)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.er_remarks)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.exam.e_type)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.exam.e_type)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.std_info.s_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.std_info.s_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.st_subj.s_sub)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.st_subj.s_sub)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

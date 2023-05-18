@@ -1,0 +1,75 @@
+﻿@model managment.Models.exam_result
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/layoutadmin.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>exam_result</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.er_marks)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.er_marks)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.er_per)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.er_per)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.er_grade)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.er_grade)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.er_remarks)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.er_remarks)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.exam.e_type)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.exam.e_type)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.std_info.s_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.std_info.s_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.st_subj.s_sub)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.st_subj.s_sub)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.er_id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
